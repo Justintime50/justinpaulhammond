@@ -1,0 +1,408 @@
+/* Justin Hammond Website main stylesheet */
+
+/* NOTES: */
+/* 1) box-shadow must be placed before border styles to take affect. */
+
+
+/**********************************/
+/**** Links, Headers, & Footer ****/
+
+@font-face {
+    font-family: 'Avenir';
+    src: url ('../../ServerContent/Fonts/avenir-light-webfont.ttf')  format('truetype'),
+}
+
+a:link{color:#007dda;text-decoration:none;}a:visited{color:#007dda;text-decoration:none;}a:hover{color:#007dda;text-decoration:none;}a:current{color:#007dda;text-decoration:none;}
+
+.logo {
+	width: 200px;
+	height:80px;
+	float:left;
+	padding-top: 5px;
+}
+
+footer {
+	color:black;
+	font-size: 14px;
+	padding:5px;
+}
+
+h1 {
+	font-size:32px;
+	color:#89150a;
+	margin: auto auto 10px auto;
+	text-align: center;
+}
+
+h2 {
+	text-align:center;
+	font-size: 30px;
+	padding-bottom: 10px;
+	color:#89150a;
+}
+
+h3 {
+	color:#89150a;
+	font-size:24px;
+}
+
+sup { 
+	position:relative;
+	font-size:0.8em;
+} /* For (R), *, or TM sign */
+
+img.footer-icon {
+	width: 82px;
+	height: 82px;
+	margin: 0px 5px;
+	display:inline;
+	text-align: left;
+}
+
+
+/**********************/
+/**** Main Content ****/
+/*#D3ECF5*/
+
+body{
+	font-family: Avenir, Helvetica, sans-serif;
+	color: #050505;
+	font-size: 15px;
+	overflow-x: hidden
+}
+
+img {
+	display:block;
+	margin:auto;
+}
+
+li{
+	padding-bottom:10px;
+}
+
+li.faq{
+	font-weight:bold;
+	font-style:italic;
+	padding:0px;
+}
+
+div.justify {
+	text-align:justify;
+}
+
+div.selling-points {
+	padding:20px 60px;
+}
+
+img.device { 
+	border: 3px solid white;
+}
+
+img.device:hover { 
+	border: 3px solid #007dda;
+} 
+
+.columns {
+	text-align: center;
+	padding: 10px 30px;
+}
+
+.bg-red {
+	background-color:#89150a;
+	color: white;
+}
+
+img.justin-pic {
+	width:256px;
+	height:256px;
+	border: solid 1px black;
+	border-radius: 100%;
+}
+
+p.index-text {
+	font:24px Helvetica;
+
+}
+
+
+/* Tuneup Technology Website */
+
+/********************************/
+/**** BOOTSTRAP 3.0 OVERRIDE ****/
+/** "!important" should be added to override bootstrap CSS **/
+/********************************/
+
+
+/***********/
+/*** Nav ***/
+
+/* 
+RED: 89150a
+048ada
+Gray: 3c505a
+*/
+
+
+nav {
+	background-color:white !important;
+	border-radius: 0 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+	/* display: block; /* Makes nav hover feature work */
+}
+
+.dropdown-menu {
+	border: 1px solid #89150a;
+}
+
+nav ul {
+	background-color:white !important;
+}
+
+nav ul li {
+	padding:0px;
+	background-color:white;
+}
+
+nav ul li a {
+	background-color:white !important; 
+	color:#89150a !important;
+}
+
+/* WORK ON THIS ONE...*/
+nav ul li a:hover {
+	background-color:#3c505a !important; 
+	color:white !important;
+}
+
+nav ul li ul li {
+    background-color:#3c505a !important; 
+	padding:0px;
+	text-align:center;
+}
+
+nav ul li ul li a {
+	padding:6px !important;
+	background-color:#89150a !important;
+}
+
+nav ul li ul li a:hover{
+    background-color:#3c505a !important; 
+}
+
+.navbar {
+	padding:5px 8%;
+	border-bottom: 1px solid black;
+	opacity: .97;
+}
+
+.navbar-nav li {
+	padding:5px 0px;
+}
+
+.navbar-nav li a:hover {
+    color: #3c505a !important;
+    background-color: white !important;
+}
+
+.dropdown-toggle:focus {
+    color: #3c505a !important;
+    background-color: white !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #3c505a !important;
+}
+
+.navbar-toggle {
+    border-color: #89150a !important; /* Color for small nav dropdown button */
+    margin: 15px; /* Fixes button position */
+}
+
+.navbar-toggle:hover {
+    background-color: #3c505a !important; /* Color for small nav dropdown button background */
+}
+
+.icon-bar {
+	background-color: #89150a; /* Color for small nav dropdown button */
+}
+
+.navbar-right {
+	text-align: center;
+}
+
+
+
+/**********************/
+/*** General Styles ***/
+
+.btn-default {
+	border: 1px solid #007dda !important;
+	background-color: white !important;
+	color: #007dda !important;
+}
+
+.btn-default:hover {
+	border: 1px solid #007dda !important;
+	background-color: #007dda !important;
+	color: white !important;
+}
+
+.btn-repair-default {
+	background-color: #007dda !important;
+	color: white !important;
+	padding: 20px 40px;
+	margin-bottom:20px;
+}
+
+.btn-repair-default:hover {
+	background-color: #048ada !important;
+	color: white !important;
+}
+
+.btn-contact-index {
+	background-color: white !important;
+	color: #007dda !important;
+}
+
+.btn-contact-index:hover {
+	border: 1px solid white !important;
+	background-color: #048ada !important;
+	color: white !important;
+}
+
+.container {
+    padding: 30px 10%;
+}
+
+.jumbotron {
+	background-image: url("WebContent/Pics/banner.jpg");
+	/*background-color: #89150a;*/
+    -webkit-background-size: cover; /* For WebKit */
+    -moz-background-size: cover;    /* Mozilla */
+    -o-background-size: cover;      /* Opera */
+    background-size: cover;         /* Generic */
+	color:white !important;
+	text-align: center;
+	border-bottom: 1px solid #3c505a;
+	padding-bottom: 25%;
+	padding-left: 8%;
+	padding-right: 8%;
+	margin: -20px 0px 0px 0px;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.glyphicon-index {
+	font-size:80px;
+	padding: 10px 0px;
+}
+
+
+
+
+/* Pricing */
+
+.panel {
+    border: 1px solid #89150a; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #89150a;
+    background-color: white !important;
+    color: #89150a;
+}
+
+.panel-heading {
+    color: white !important;
+    background-color: #89150a !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: white !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #89150a;
+    color: #fff;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    transition: box-shadow 0.5s;
+    border: 1px solid #89150a;
+}
+
+.thumbnail:hover {
+	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #89150a;
+}
+
+
+
+/**********************/
+/*** SLIDEANIM CODE ***/
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

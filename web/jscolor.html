@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JH Web Design Color Picker</title>
+	
+	<style type="text/css">
+		
+	body {
+		font-family: Helvetica;
+	}
+
+	</style>
+</head>
+<body style="text-align:center;">
+
+
+
+	<script src="assets/scripts/jscolor.min.js"></script>
+
+	<h1>JH Web Design<br>Color Picker</h1>
+	<a href="webdesign.php"><button>Back to Resources</button></a>
+	<br><br><hr><br>
+
+	<p>Please provide me with the HEX values for your background and font color selection.</p>
+
+	<br><br>
+
+	<h2>BG Color</h2>
+	BG Color HEX Value: <input class="jscolor" value="ab2567" style="height: 50px;">
+
+	<br><br>
+
+	<h2>Font Color</h2>
+
+	<button class="jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'}">
+		Pick font color
+	</button>
+
+	<br><br>
+	Font Color HEX Value: <input id="chosen-value" value="000000">
+
+	<br><br>
+
+	<script>
+	function setTextColor(picker) {
+		document.getElementsByTagName('body')[0].style.color = '#' + picker.toString()
+	}
+	</script>
+
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+/*********************/
+/* Links and Headers */
+/*********************/
+h2 {
+	font-size:28px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+h4 {
+	font-weight:bold;
+	text-decoration:underline;
+	margin:0px;
+	padding:0px;
+}
+h6 {
+	font-size:40px;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+nav {
+	border:2px solid #a1a1a1;
+	padding:3px;
+	text-align:center;
+	background:#262626;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+header {text-align:center;width:100%;}
+footer {text-align:center;}
+a img {border:0px;}
+a:link {color:#00FF7F;}a:visited {color:#00FF7F;}a:hover {color:red;}a.current {color:#00FFFF;}
+/****************/
+/* Main Content */
+/****************/
+body {
+	margin:auto;
+	color:#BEF1F6;
+	background:#5A5B5A;
+	width:80%;
+	background-image:url('WebContent/Pics/Site/header.png');
+	background-repeat:repeat-x;
+}
+table.table_c {
+	text-align:center;
+	border-radius:25px;
+	border:2px solid #a1a1a1;
+	background:#262626;
+	padding:3px;
+	width:100%;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+table.games {
+	border-radius:25px;
+	border:2px solid #a1a1a1;
+	background:#262626;
+	padding:3px;
+	width:100%;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+table.about {
+	border-radius:25px;
+	border:2px solid #a1a1a1;
+	background:#262626;
+	padding:3px;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+table.buy_now {
+	border-radius:25px;
+	border:2px solid #a1a1a1;
+	background:#262626;
+	padding:3px;
+	width:100%;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+table.game_list {
+	border-radius:25px;
+	border:2px solid #a1a1a1;
+	background:#262626;
+	padding:3px;
+	width:49%;
+	float:left;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+table.buy_now_small {
+	border-radius:25px;
+	border:2px solid #a1a1a1;
+	background:#262626;
+	padding:3px;
+	width:49%;
+	float:right;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+}
+img.logo {
+	float:left;
+	margin:1%0%0%4%;
+}
+img.bye {
+	margin:15%25%15%25%;
+}
+table.out {
+	background:#262626;
+	width:100%;
+	height:100%;
+}
+p.center {text-align:center;}
+table.slideshow {width:100%;text-align:center;}
+#gameshow {float:left;margin:20px;}
+#fadeshow1 {margin:auto;}#fadeshow2 {margin:auto;}#fadeshow3 {margin:auto;}
