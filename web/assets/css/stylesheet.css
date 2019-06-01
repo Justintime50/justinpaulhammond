@@ -278,7 +278,7 @@ nav ul li ul li a:hover{
 }
 
 .jumbotron {
-	background-image: url("WebContent/Pics/banner.jpg");
+	background-image: url("assets/Pics/banner.jpg");
 	/*background-color: #89150a;*/
     -webkit-background-size: cover; /* For WebKit */
     -moz-background-size: cover;    /* Mozilla */

@@ -62,9 +62,6 @@
             <i class="fab fa-css3"></i>
             <a href="web/pineapple" target="_blank">Pineapple Library</a><br>CSS and JS Library of frequently used components.
         </div>
-        <!--
-            <li><a href="silverwolfgames" target="_blank">SilverWolf Games</a><br>Founder &#38; Game Developer</li>
-         -->
     </div>
 
     <div class="row">
@@ -78,7 +75,15 @@
         </div>
         <div class="col-md-4">
             <i class="fab fa-laravel"></i>
-            <a href="https://github.com/Justintime50/Welcome-to-Laravel" target="_blank" disabled>Welcome to Laravel</a><br>Simple intro documentation to Laravel
+            <a href="https://github.com/Justintime50/Techie-Tinkers" target="_blank" disabled>Techie Tinkers</a><br>Simple learning platform for Git, Docker, Laravel, and more.
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <i class="fas fa-gamepad"></i>
+            <a href="silverwolfgames" target="_blank">SilverWolf Games</a><br>Games I developed as a kid.</li>
         </div>
     </div>
 </div>
@@ -108,14 +113,14 @@
     </div>
 </div>
 
-<div class="container text-center">
+<div class="container">
     <h2>News &#38; Articles</h2>
 
-    <a href="https://utah.comcast.com/comcast-leaders-achievers/">Utah $10,000 Leaders &#38; Achievers Award Recipient</a>
-    <br>
-    <a href="https://chhighschool.wordpress.com/tag/justin-hammond/">Copper Hills High School Comcast Scholarship Recognition</a>
-    <br>
-    <a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a>
+    <ul style="display:table; margin:0 auto;">
+        <li><a href="https://utah.comcast.com/comcast-leaders-achievers/">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
+        <li><a href="https://chhighschool.wordpress.com/tag/justin-hammond/">Copper Hills High School Comcast Scholarship Recognition</a></li>
+        <li><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
+    </ul>
 </div>
 
 <div class="text-center bg-blue">

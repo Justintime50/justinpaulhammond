@@ -1,7 +1,0 @@
-PLACE IN THE FOOTER OF THE INDEX:
-
-		
-<script src="http://static.freewebs.getclicky.com/55435462.js" type="text/javascript"></script> <noscript><img alt="Clicky" src="http://in.freewebs.getclicky.com/55435462-fwdb4.gif" /></noscript> 
-
-<!-- Webs.com Freebar -->
-<script language="JavaScript" src="http://images.freewebs.com/JS/Freebar/bar_stretchblack.js"></script>

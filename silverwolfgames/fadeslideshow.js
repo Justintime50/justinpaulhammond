@@ -1,4 +1,4 @@
-var fadeSlideShow_descpanel={controls:[['Web_Content/x.png',7,7],['Web_Content/restore.png',10,11],['Web_Content/loading.gif',54,55]],fontStyle:'normal 11px Verdana',slidespeed:200}
+var fadeSlideShow_descpanel={controls:[['assets/x.png',7,7],['assets/restore.png',10,11],['assets/loading.gif',54,55]],fontStyle:'normal 11px Verdana',slidespeed:200}
 jQuery.noConflict()
 function fadeSlideShow(settingarg){this.setting=settingarg
 settingarg=null
