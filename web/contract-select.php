@@ -1,2 +1,0 @@
-
-<p>Contract...</p>

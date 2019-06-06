@@ -8,8 +8,6 @@
         </a>
 
         <p class="text-center">
-            <a href="wedding">Wedding</a>
-            &nbsp;|&nbsp;
             <a href="https://justinpaulhammond.com/nextcloud">Nextcloud</a>
         </p>
     </div>

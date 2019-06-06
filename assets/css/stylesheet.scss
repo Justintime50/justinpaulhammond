@@ -3,6 +3,7 @@
   color: #fff;
   a,a:focus,a:active,a:visited {
     color: #fff;
+    text-decoration: underline;
   }
   a:hover {
     opacity: 0.8;
@@ -43,4 +44,13 @@ h2 {
   height:70px;
   max-width:100%;
   margin-top: 20px;
+}
+
+.centered-titles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h4 {
+    font-weight: bold;
+  }
 }
