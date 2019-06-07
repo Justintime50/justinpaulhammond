@@ -44,6 +44,12 @@ h2 {
   font-size: 4vmin;
 }
 
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 6vmin;
+  }
+}
+
 .logos {
   height: 70px;
   max-width: 100%;
