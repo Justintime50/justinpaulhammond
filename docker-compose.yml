@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:
+
+    ## Use latest Nginx to serve
+    nginx_justinpaulhammond:
+        image: nginx:latest
+        restart: always
+        container_name: 'justinpaulhammond-nginx'
+        volumes:
+            - ./:/var/www
+            - ./nginx.conf:/etc/nginx/conf.d/default.conf
+        networks:
+            - traefik_default
+        labels:
+            - traefik.enabled=true
+            - traefik.backend=nginx
+            - traefik.docker.network=traefik_default
+            - traefik.frontend.rule=Host:nginx.localhost
+            - traefik.port=80
+
+    ## Use latest PHP
+    php_justinpaulhammond:
+        image: php:fpm
+        restart: always
+        container_name: 'justinpaulhammond-php'
+        volumes:
+            - ./:/var/www
+        networks:
+            - traefik_default
+
+networks:
+    traefik_default:
+        external:
+            name: traefik_default
