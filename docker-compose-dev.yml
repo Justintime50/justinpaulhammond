@@ -16,7 +16,7 @@ services:
             - traefik.enabled=true
             - traefik.backend=nginx
             - traefik.docker.network=traefik
-            - traefik.frontend.rule=Host:justinpaulhammond.com
+            - traefik.frontend.rule=Host:justin.localhost
             - traefik.port=80
 
     ## Use latest PHP
