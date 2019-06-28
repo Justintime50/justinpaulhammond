@@ -117,7 +117,7 @@
             </div>
             <div class="col-md-4 pa-slideanim">
                 <i class="fab fa-css3"></i>
-                <a href="web/pineapple" target="_blank">Pineapple Library</a><br>CSS and JS Library of frequently used components.
+                <a href="https://github.com/Justintime50/pineapple" target="_blank">Pineapple Library</a><br>CSS and JS Library of frequently used components.
             </div>
         </div>
 
