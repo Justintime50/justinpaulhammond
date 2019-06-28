@@ -137,14 +137,15 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6 pa-slideanim">
+            <div class="col-md-4 pa-slideanim">
                 <i class="fas fa-globe"></i>
                 <a href="https://thoriumsim.com" target="_blank" disabled>Thorium</a><br>QA and documentation writer for space simulator software.
             </div>
-            <div class="col-md-6 pa-slideanim">
+            <div class="col-md-4 pa-slideanim">
                 <i class="fas fa-gamepad"></i>
                 <a href="silverwolfgames" target="_blank">SilverWolf Games</a><br>Games I developed as a kid.</li>
             </div>
+            <div class="col-md-4"></div>
         </div>
     </div>
 </div>
