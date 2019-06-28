@@ -31,7 +31,7 @@
             <div class-="col-lg-6">
                 <a href="https://ncr4.com" target="_blank" class="pa-slideanim">
                     <img src="assets/pics/ncr4-logo.png" class="logos">
-                    <h3 style="margin-top:20px;">Director of Customer Experience<br>and Developer</h3>
+                    <h3 style="margin-top:20px;">Co-founder<br>and Developer</h3>
                 </a>
             </div>
         </div>
@@ -113,7 +113,7 @@
             </div>
             <div class="col-md-4 pa-slideanim">
                 <i class="fas fa-address-book"></i>
-                <a href="//alltheinvites.com" target="_blank">All The Invites</a><br>Collect addresses and send invites for your next event.
+                <a href="https://alltheinvites.com" target="_blank">All The Invites</a><br>Collect addresses and send invites for your next event.
             </div>
             <div class="col-md-4 pa-slideanim">
                 <i class="fab fa-css3"></i>
@@ -123,22 +123,25 @@
 
         <div class="row">
             <div class="col-md-4 pa-slideanim">
-                <i class="fas fa-globe"></i>
-                <a href="eclipse" target="_blank" disabled>Project Eclipse</a><br>Space simulator business using Thorium.
+                <i class="fab fa-docker"></i>
+                <a href="https://github.com/Justintime50/multisite-docker-server" target="_blank" disabled>Multisite Docker Server</a><br>Quickly setup multiple websites via Docker containers on a single server.
             </div>
             <div class="col-md-4 pa-slideanim">
                 <i class="fas fa-globe"></i>
-                <a href="http://thoriumsim.com" target="_blank" disabled>Thorium</a><br>QA and documentation writer for space simulator software.
+                <a href="https://eclipsesim.com" target="_blank" disabled>Project Eclipse</a><br>Space simulator using Thorium.
             </div>
             <div class="col-md-4 pa-slideanim">
                 <i class="fab fa-laravel"></i>
-                <a href="https://github.com/Justintime50/Techie-Tinkers" target="_blank" disabled>Techie Tinkers</a><br>Simple learning platform for Git, Docker, Laravel, and more.
+                <a href="https://github.com/Justintime50/techie-tinkers" target="_blank" disabled>Techie Tinkers</a><br>Simple learning platform for Git, Docker, Laravel, and more.
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 pa-slideanim">
+            <div class="col-md-6 pa-slideanim">
+                <i class="fas fa-globe"></i>
+                <a href="https://thoriumsim.com" target="_blank" disabled>Thorium</a><br>QA and documentation writer for space simulator software.
+            </div>
+            <div class="col-md-6 pa-slideanim">
                 <i class="fas fa-gamepad"></i>
                 <a href="silverwolfgames" target="_blank">SilverWolf Games</a><br>Games I developed as a kid.</li>
             </div>
@@ -171,9 +174,10 @@
     <div class="container">
         <h2>News &#38; Articles</h2>
         <ul style="display:table; margin:0 auto;">
-            <li class="pa-slideanim"><a href="https://utah.comcast.com/comcast-leaders-achievers/">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
-            <li class="pa-slideanim"><a href="https://chhighschool.wordpress.com/tag/justin-hammond/">Copper Hills High School Comcast Scholarship Recognition</a></li>
+            <li class="pa-slideanim"><a href="https://utah.comcast.com/comcast-leaders-achievers/" target="_blank">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
+            <li class="pa-slideanim"><a href="https://chhighschool.wordpress.com/tag/justin-hammond/" target="_blank">Copper Hills High School Comcast Scholarship Recognition</a></li>
             <li class="pa-slideanim"><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
+            <li class="pa-slideanim"><a href="https://github.com/Justintime50/migrate-google-drive-across-domains" target="_blank">Migrate Google Drive across Domains</a></li>
         </ul>
     </div>
 </div>
