@@ -7,33 +7,29 @@
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<!-- CONTENT -->
 <div class="bg-banner text-center">
     <h1>Hey, I'm Justin Hammond</h1>
     <h3>Entrepreneur & Developer</h3>
     <img src="assets/pics/justin-transparent.png" style="height:600px;">
 </div>
 
-<!-- Container (BUSINESS Section) -->
-<div id="business" class="container text-center">
-    <div class="col-md-12">
-        <h2>Entrepreneurship</h2>
-        <p class="text-center">I've always had a passion for business. I've founded or helped co-found multiple companies. At the age of 12, I was programming video games. A couple years later, I got into web design. A few years after that while still in high school, I started an IT consulting and repair company. In my early 20's, I would go on to help create both Nozani, an ecommerce agency, and NCR4 Design, a web design company. Care to see what we are up to? Check us out below:</p>
+<div id="entrepreneurship" class="container text-center">
+    <h2>Entrepreneurship</h2>
+    <p class="text-center">I've always had a passion for business. I've founded or helped co-found multiple companies. At the age of 12, I was programming video games. A couple years later, I got into web design. A few years after that while still in high school, I started an IT consulting and repair company. In my early 20's, I would go on to help create both Nozani, an ecommerce agency, and NCR4 Design, a web design company. Care to see what we are up to? Check us out below:</p>
 
-        <div class="row">
-            <div class="col-lg-6">
-                <a href="https://nozani.com" target="_blank" class="pa-slideanim">
-                    <img src="assets/pics/nozani-logo.png" class="logos">
-                    <h3 style="margin-top:20px;">Senior Project Manager - Software</h3>
-                </a>
-            </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="https://nozani.com" target="_blank" class="pa-slideanim">
+                <img src="assets/pics/nozani-logo.png" class="logos">
+                <h3 style="margin-top:20px;">Senior Project Manager - Software</h3>
+            </a>
+        </div>
 
-            <div class-="col-lg-6">
-                <a href="https://ncr4.com" target="_blank" class="pa-slideanim">
-                    <img src="assets/pics/ncr4-logo.png" class="logos">
-                    <h3 style="margin-top:20px;">Co-founder<br>and Developer</h3>
-                </a>
-            </div>
+        <div class="col-md-6">
+            <a href="https://ncr4.com" target="_blank" class="pa-slideanim">
+                <img src="assets/pics/ncr4-logo.png" class="logos">
+                <h3 style="margin-top:20px;">Co-founder and Developer</h3>
+            </a>
         </div>
     </div>
 </div>
@@ -46,7 +42,7 @@
     </div>
 </div>
 
-<div class="container">
+<div id="developer" class="container">
     <h2>Developer</h2>
     <p class="text-center">At heart, I'm a dreamer. I believe that we were meant to create. The incredible thing about coding is you can create something with only a few lines of information and immediately see the results.</p>
 
@@ -145,7 +141,10 @@
                 <i class="fas fa-gamepad"></i>
                 <a href="silverwolfgames" target="_blank">SilverWolf Games</a><br>Games I developed as a kid.</li>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4 pa-slideanim">
+                <i class="fab fa-laravel"></i>
+                <a href="https://github.com/Justintime50/laraview" target="_blank" disabled>Laraview</a><br>Simplistic Laravel Blog.
+            </div>
         </div>
     </div>
 </div>
