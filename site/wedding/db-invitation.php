@@ -1,14 +1,5 @@
 <?php
 
-//////////////////////////////////////////////////////////////////////////////
-// WEDDING STORY THEME v1.0 (2/15/17)
-// Theme Created By Justin Hammond Web Design - www.justinpaulhammond.com/web
-// Copyright (c) 2017 Justin Hammond Web Design
-//
-// DO NOT REMOVE THIS HEADER, DO NOT USE WITHOUT PERMISSION
-//////////////////////////////////////////////////////////////////////////////
-
-
 // Console error
 $console = "<hr><b>Console:</b><br>";
 

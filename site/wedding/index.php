@@ -469,7 +469,7 @@
     </div>
     <div class="col-sm-6">
       <!-- Add Google Maps -->
-      <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=11623%20N.%20Sunset%20Hills%20Dr.%20Highland%2C%20UT%2084003-3757&key=AIzaSyBuoRcNeX_mF0OleWPLaSOm6sYSAQBOFXI" allowfullscreen></iframe>
+      <iframe width="100%" height="450" frameborder="0" style="border:0" src="#" allowfullscreen></iframe>
     </div>
   </div>
 </div>
