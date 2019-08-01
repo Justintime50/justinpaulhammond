@@ -9,26 +9,26 @@
 
 <div class="bg-banner text-center">
     <h1>Hey, I'm Justin Hammond</h1>
-    <h3>Entrepreneur & Developer</h3>
+    <h3>Entrepreneur, Developer, &#38; IT Professional</h3>
     <img src="assets/pics/justin-transparent.png" style="height:600px;">
 </div>
 
 <div id="entrepreneurship" class="container text-center">
     <h2>Entrepreneurship</h2>
-    <p class="text-center">I've always had a passion for business. I've founded or helped co-found multiple companies. At the age of 12, I was programming video games. A couple years later, I got into web design. A few years after that while still in high school, I started an IT consulting and repair company. In my early 20's, I would go on to help create both Nozani, an ecommerce agency, and NCR4 Design, a web design company. Care to see what we are up to? Check us out below:</p>
+    <p class="text-center">I am passionate about new, innovative technologies. Programming video games since the age of 12, websites at the age of 14, and starting Tuneup Technology (an IT consulting and repair business) at 16, I have years of experience in technology. I co-founded NCR4 (a web design and hosting company) and played a major role in the creation of Nozani (an ecommerce ageny) in my early 20's. I have been involved with multiple startups in both leadership and technology capacities. Excited about the future, I am always on the lookout for the next big thing!</p>
 
     <div class="row">
         <div class="col-md-6">
             <a href="https://nozani.com" target="_blank" class="pa-slideanim">
                 <img src="assets/pics/nozani-logo.png" class="logos">
-                <h3 style="margin-top:20px;">Senior Project Manager - Software</h3>
+                <h3 style="margin-top:20px;">Director of IT &#38; Employee #2</h3>
             </a>
         </div>
 
         <div class="col-md-6">
             <a href="https://ncr4.com" target="_blank" class="pa-slideanim">
                 <img src="assets/pics/ncr4-logo.png" class="logos">
-                <h3 style="margin-top:20px;">Co-founder and Developer</h3>
+                <h3 style="margin-top:20px;">Co-founder &#38; Developer</h3>
             </a>
         </div>
     </div>
@@ -36,9 +36,21 @@
 
 <div class="bg-blue">
     <div class="container text-center">
-        <h3>Resume</h3>
-        <p class="text-center">I have experience in the areas of technology and management.<br>Check out my resume here:</p>
-        <h3 class="text-center pa-slideanim"><a href="assets/docs/resume.pdf" target="_blank"><i class="fas fa-file-pdf fa-4x"></i></a></h3>
+        <h3>Experience</h3>
+        <p class="text-center">I have experience in the areas of technology and management. Check out my resume and LinkedIn below:</p>
+
+        <div class="row">
+            <div class="col-md-6 pa-slideanim">
+                <a href="assets/docs/resume.pdf" target="_blank" style="text-decoration:none;">
+                    <i class="fas fa-file-pdf fa-4x"></i><br />Resume
+                </a>
+            </div>
+            <div class="col-md-6 pa-slideanim">
+                <a href="https://linkedin.com/in/justin-hammond" target="_blank" class="pa-slideanim" style="text-decoration:none;">
+                    <i class="fab fa-linkedin-in fa-4x"></i><br />LinkedIn
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -184,16 +196,6 @@
             <li class="pa-slideanim"><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
             <li class="pa-slideanim"><a href="https://github.com/Justintime50/migrate-google-drive-across-domains" target="_blank">Migrate Google Drive across Domains</a></li>
         </ul>
-    </div>
-</div>
-
-<div class="text-center">
-    <div class="container">
-        <h2>Connect</h2>
-        <p>justinpaulhammond@gmail.com</p>
-        <a href="https://linkedin.com/in/justin-hammond" target="_blank" class="pa-slideanim">
-            <i class="fab fa-linkedin-in fa-3x"></i>
-        </a>
     </div>
 </div>
 

@@ -8,8 +8,8 @@
 <link rel="stylesheet" href="assets/css/waterfall.theme.css">
 <link rel="stylesheet" href="assets/css/stylesheet.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-<meta name="keywords" content="justin,paul,hammond,web,design,tuneup,technology,silver,wolf,games,business,development,resume, entrepreneur, entrepreneurship, nozani, ncr4">
-<meta name="description" content="Justin Hammond - Entrepreneur and Developer">
+<meta name="keywords" content="justin,paul,hammond,web,design,tuneup,technology,silver,wolf,games,business,development,resume, entrepreneur, entrepreneurship, nozani, ncr4, it, professional, developer, experience, management">
+<meta name="description" content="Justin Hammond - Entrepreneur, Developer, & IT Professional">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140798052-1"></script>
