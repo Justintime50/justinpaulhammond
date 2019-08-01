@@ -3,12 +3,9 @@
     <div class="container">
 
         <p>&#169; Justin Hammond, All rights reserved.</p>
-        <a href="https://youtube.com/justintime225" target="_blank">
-            <i class="fab fa-youtube"></i>
-        </a>
 
         <p class="text-center">
-            <a href="https://justinpaulhammond.com/nextcloud">Nextcloud</a>
+            <a href="https://nextcloud.justinpaulhammond.com">Nextcloud</a>
         </p>
     </div>
 </footer>

@@ -152,19 +152,24 @@
 <div class="container text-center">
     <h2>Find me on the web</h2>
     <div class="row">
-        <div class="col-md-4 pa-slideanim">
+        <div class="col-md-3 pa-slideanim">
             <a href="https://github.com/Justintime50" target="_blank">
                 <i class="fab fa-github fa-5x"></i>
             </a>
         </div>
-        <div class="col-md-4 pa-slideanim">
+        <div class="col-md-3 pa-slideanim">
             <a href="https://git.ncr4.com/Justintime50" target="_blank">
                 <i class="fab fa-gitlab fa-5x"></i>
             </a>
         </div>
-        <div class="col-md-4 pa-slideanim">
+        <div class="col-md-3 pa-slideanim">
             <a href="https://trailhead.salesforce.com/users/profiles/00550000006ILOFAA4" target="_blank">
                 <i class="fab fa-salesforce fa-5x"></i>
+            </a>
+        </div>
+        <div class="col-md-3 pa-slideanim">
+            <a href="https://youtube.com/justintime225" target="_blank">
+                <i class="fab fa-youtube fa-5x"></i>
             </a>
         </div>
     </div>
