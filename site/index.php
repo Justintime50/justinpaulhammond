@@ -175,7 +175,7 @@
             </a>
         </div>
         <div class="col-md-3 pa-slideanim">
-            <a href="https://trailhead.salesforce.com/users/profiles/00550000006ILOFAA4" target="_blank">
+            <a href="https://trailhead.salesforce.com/en/me/justinhammond" target="_blank">
                 <i class="fab fa-salesforce fa-5x"></i>
             </a>
         </div>
