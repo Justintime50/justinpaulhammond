@@ -7,6 +7,13 @@
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
 
+<nav class="navbar navbar-light navbar-transparent">
+    <a class="navbar-brand" href="#"><img src="/assets/pics/justin-head-circle.png" class="justin-head"> Justin Hammond</a>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
+    </ul>
+</nav>
+
 <div class="bg-banner text-center">
     <h1>Hey, I'm Justin Hammond</h1>
     <h3>Entrepreneur, Developer, &#38; IT Professional</h3>
@@ -114,49 +121,7 @@
 <div class="bg-blue">
     <div class="container">
         <h3 class="text-center">Projects</h3>
-        <div class="row">
-            <div class="col-md-4 pa-slideanim">
-                <i class="fas fa-wrench"></i>
-                <a href="https://tuneuptechnology.com" target="_blank">TuneApp</a><br>All-in-one platform for tracking customers, tickets, and inventory.
-            </div>
-            <div class="col-md-4 pa-slideanim">
-                <i class="fas fa-address-book"></i>
-                <a href="https://alltheinvites.com" target="_blank">All The Invites</a><br>Collect addresses and send invites for your next event.
-            </div>
-            <div class="col-md-4 pa-slideanim">
-                <i class="fab fa-css3"></i>
-                <a href="https://github.com/Justintime50/pineapple" target="_blank">Pineapple Library</a><br>CSS and JS Library of frequently used components.
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 pa-slideanim">
-                <i class="fab fa-docker"></i>
-                <a href="https://github.com/Justintime50/multisite-docker-server" target="_blank" disabled>Multisite Docker Server</a><br>Quickly setup multiple websites via Docker containers on a single server.
-            </div>
-            <div class="col-md-4 pa-slideanim">
-                <i class="fas fa-globe"></i>
-                <a href="https://eclipsesim.com" target="_blank" disabled>Project Eclipse</a><br>Space simulator using Thorium.
-            </div>
-            <div class="col-md-4 pa-slideanim">
-                <i class="fab fa-laravel"></i>
-                <a href="https://github.com/Justintime50/techie-tinkers" target="_blank" disabled>Techie Tinkers</a><br>Simple learning platform for Git, Docker, Laravel, and more.
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 pa-slideanim">
-                <i class="fas fa-globe"></i>
-                <a href="https://thoriumsim.com" target="_blank" disabled>Thorium</a><br>QA and documentation writer for space simulator software.
-            </div>
-            <div class="col-md-4 pa-slideanim">
-                <i class="fas fa-gamepad"></i>
-                <a href="silverwolfgames" target="_blank">SilverWolf Games</a><br>Games I developed as a kid.</li>
-            </div>
-            <div class="col-md-4 pa-slideanim">
-                <i class="fab fa-laravel"></i>
-                <a href="https://github.com/Justintime50/laraview" target="_blank" disabled>Laraview</a><br>Simplistic Laravel Blog.
-            </div>
+            <p class="text-center">I'm working on various projects at the moment, too many to list here. Feel free to check out my <a href="https://github.com/Justintime50" target="_blank">Github</a> to view my open-source projects, or ask me about my projects at work. We are always building really cool software at <a href="https://ncr4.com" target="_blank">NCR4</a> or deploying awesome new IT solutions at <a href="https://easypost.com">EasyPost</a>.
         </div>
     </div>
 </div>
@@ -170,8 +135,8 @@
             </a>
         </div>
         <div class="col-md-3 pa-slideanim">
-            <a href="https://git.ncr4.com/Justintime50" target="_blank">
-                <i class="fab fa-gitlab fa-5x"></i>
+            <a href="/blog" target="_blank">
+            <i class="fas fa-blog fa-5x"></i>
             </a>
         </div>
         <div class="col-md-3 pa-slideanim">
@@ -194,8 +159,9 @@
             <li class="pa-slideanim"><a href="https://utah.comcast.com/comcast-leaders-achievers/" target="_blank">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
             <li class="pa-slideanim"><a href="https://chhighschool.wordpress.com/tag/justin-hammond/" target="_blank">Copper Hills High School Comcast Scholarship Recognition</a></li>
             <li class="pa-slideanim"><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
-            <li class="pa-slideanim"><a href="https://github.com/Justintime50/migrate-google-drive-across-domains" target="_blank">Migrate Google Drive across Domains</a></li>
         </ul>
+
+        <p class="text-center">Always feel free to checkout <a href="/blog" target="_blank">my blog</a> for additional articles.</p>
     </div>
 </div>
 

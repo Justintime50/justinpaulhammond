@@ -60,3 +60,16 @@ h2 {
     font-weight: bold;
   }
 }
+
+.navbar {
+  background-color: #007dda;
+  .navbar-brand, .nav-link, .nav-item {
+    color: #fff !important;
+    font-size: 24px;
+    padding: 5px 10px 0px 10px;
+  }
+}
+
+.justin-head {
+  max-width: 45px;
+}

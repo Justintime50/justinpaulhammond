@@ -5,7 +5,11 @@
         <p>&#169; Justin Hammond, All rights reserved.</p>
 
         <p class="text-center">
-            <a href="https://nextcloud.justinpaulhammond.com">Nextcloud</a>
+            <a href="https://justinpaulhammond.com/blog">Blog</a>
+            |
+            <a href="https://github.com/Justintime50">Github</a>
+            |
+            <a href="https://linkedin.com/in/justin-hammond">LinkedIn</a>
         </p>
     </div>
 </footer>
