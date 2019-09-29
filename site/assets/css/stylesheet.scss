@@ -46,8 +46,11 @@ h2 {
   }
   .navbar {
     .navbar-brand, .nav-link, .nav-item {
-      font-size: 16px;
+      font-size: 16px !important;
     }
+  }
+  .justin-head {
+    max-width: 30px !important;
   }
 }
 
