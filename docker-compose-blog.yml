@@ -8,8 +8,9 @@ services:
         restart: always
         container_name: justinpaulhammond-nginx
         volumes:
-            - ./site:/var/www/html
-            - ./nginx.conf:/etc/nginx/conf.d/default.conf
+            - ./site:/var/www/html/site
+            - ./blog:/var/www/html/blog
+            - ./nginx-blog.conf:/etc/nginx/conf.d/default.conf
         networks:
             - traefik
         labels:
@@ -24,7 +25,8 @@ services:
         restart: always
         container_name: justinpaulhammond-php
         volumes:
-            - ./site:/var/www/html
+            - ./site:/var/www/html/site
+            - ./blog:/var/www/html/blog
         networks:
             - traefik
 
