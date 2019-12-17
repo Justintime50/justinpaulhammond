@@ -1,3 +1,4 @@
-FROM php:fpm
+FROM justintime50/nginx-php:latest
 
-RUN docker-php-ext-install mysqli pdo pdo_mysql
+COPY --chown=www-data:www-data ./src /var/www/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
