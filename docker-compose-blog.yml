@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
     justinpaulhammond:
-        build: blog-dockerfile
+        build: ./blog-dockerfile
             context: .
         restart: always
         container_name: justinpaulhammond
