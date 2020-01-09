@@ -1,6 +1,6 @@
 # justinpaulhammond.com
 
-[![Build Status](https://travis-ci.org/Justintime50/justinpaulhammond.svg?branch=master)](https://travis-ci.org/Justintime50/justinpaulhammond)
+[![Build Status](https://travis-ci.org/Justintime50/justinpaulhammond.com.svg?branch=master)](https://travis-ci.org/Justintime50/justinpaulhammond.com)
 
 My personal website used as a portfolio and entry point to my blog.
 
