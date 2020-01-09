@@ -1,5 +1,8 @@
 # justinpaulhammond.com
-My personal website used as a portfolio and gateway to other resources.
+
+[![Build Status](https://travis-ci.org/Justintime50/justinpaulhammond.svg?branch=master)](https://travis-ci.org/Justintime50/justinpaulhammond)
+
+My personal website used as a portfolio and entry point to my blog.
 
 ## Deployment
 Deploy this site using Docker:

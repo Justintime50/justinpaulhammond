@@ -26,16 +26,16 @@
 
     <div class="row">
         <div class="col-md-6">
-            <a href="https://nozani.com" target="_blank" class="pa-slideanim">
-                <img src="assets/pics/nozani-logo.png" class="logos">
-                <h3 style="margin-top:20px;">Director of IT &#38; Employee #2</h3>
+            <a href="https://ncr4.com" target="_blank" class="pa-slideanim">
+                <img src="assets/pics/ncr4-logo.png" class="logos">
+                <h3 style="margin-top:20px;">Co-founder &#38; Developer</h3>
             </a>
         </div>
 
         <div class="col-md-6">
-            <a href="https://ncr4.com" target="_blank" class="pa-slideanim">
-                <img src="assets/pics/ncr4-logo.png" class="logos">
-                <h3 style="margin-top:20px;">Co-founder &#38; Developer</h3>
+            <a href="https://buyboxexperts.com" target="_blank" class="pa-slideanim">
+                <img src="assets/pics/nozani-logo.png" class="logos">
+                <h3 style="margin-top:20px;">Director of IT &#38; Employee #2</h3>
             </a>
         </div>
     </div>
@@ -66,54 +66,66 @@
     <p class="text-center">At heart, I'm a dreamer. I believe that we were meant to create. The incredible thing about coding is you can create something with only a few lines of information and immediately see the results.</p>
 
     <div class="row text-center">
-        <div class="col-md-3 pa-slideanim centered-titles">
+        <div class="col-md-4 pa-slideanim centered-titles">
             <h4>Languages&nbsp;<i class="fas fa-chevron-right"></i></h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-html5 fa-3x"></i>
-            <h4>HTML5</h4>
+            <h4>HTML</h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-css3 fa-3x"></i>
-            <h4>CSS3 &#38; SASS</h4>
+            <h4>CSS &#38; SASS</h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-php fa-3x"></i>
             <h4>PHP</h4>
         </div>
+        <div class="col-md-2 pa-slideanim">
+            <i class="fas fa-terminal fa-3x"></i>
+            <h4>Bash</h4>
+        </div>
     </div>
     <div class="row text-center">
-        <div class="col-md-3 pa-slideanim centered-titles">
+        <div class="col-md-4 pa-slideanim centered-titles">
             <h4>Frameworks&nbsp;<i class="fas fa-chevron-right"></i></h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-bootstrap fa-3x"></i>
             <h4>Bootstrap</h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-laravel fa-3x"></i>
             <h4>Laravel</h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-salesforce fa-3x"></i>
             <h4>Salesforce</h4>
         </div>
+        <div class="col-md-2 pa-slideanim">
+            <i class="fab fa-wordpress fa-3x"></i>
+            <h4>Wordpress</h4>
+        </div>
     </div>
     <div class="row text-center">
-        <div class="col-md-3 pa-slideanim centered-titles">
+        <div class="col-md-4 pa-slideanim centered-titles">
             <h4>Utilities&nbsp;<i class="fas fa-chevron-right"></i></h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fas fa-database fa-3x"></i>
             <h4>MySQL</h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-docker fa-3x"></i>
             <h4>Docker</h4>
         </div>
-        <div class="col-md-3 pa-slideanim">
+        <div class="col-md-2 pa-slideanim">
             <i class="fab fa-git fa-3x"></i>
             <h4>Git</h4>
+        </div>
+        <div class="col-md-2 pa-slideanim">
+            <i class="fas fa-spinner fa-3x"></i>
+            <h4>CI/CD</h4>
         </div>
     </div>
 </div>
@@ -121,7 +133,7 @@
 <div class="bg-blue">
     <div class="container">
         <h3 class="text-center">Projects</h3>
-            <p class="text-center">I'm working on various projects at the moment, too many to list here. Feel free to check out my <a href="https://github.com/Justintime50" target="_blank">Github</a> to view my open-source projects, or ask me about my projects at work. We are always building really cool software at <a href="https://ncr4.com" target="_blank">NCR4</a> or deploying awesome new IT solutions at <a href="https://easypost.com">EasyPost</a>.
+            <p class="text-center">I'm working on various projects at the moment, too many to list here. Feel free to check out my <a href="https://github.com/Justintime50" target="_blank">Github</a> to view my open-source projects, or ask me about my projects at work. We are always building really cool software at <a href="https://ncr4.com" target="_blank">NCR4</a> or deploying awesome new technical solutions at <a href="https://easypost.com">EasyPost</a>.
         </div>
     </div>
 </div>
@@ -161,7 +173,7 @@
             <li class="pa-slideanim"><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
         </ul>
 
-        <p class="text-center">Always feel free to checkout <a href="/blog" target="_blank">my blog</a> for additional articles.</p>
+        <p class="text-center"><br />See <a href="/blog" target="_blank">my blog</a> for additional articles.</p>
     </div>
 </div>
 
