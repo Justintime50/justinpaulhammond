@@ -8,6 +8,9 @@ php:
     - 7.3
     - 7.4
 
+before_script: 
+    - docker network create traefik # in place of actually creating Traefik
+
 script:
     - docker-compose up -d
     - docker ps | grep -q justinpaulhammond
