@@ -17,9 +17,15 @@ docker-compose -f docker-compose-blog.yml up -d
 docker-compose -f docker-compose-dev.yml up -d
 ```
 
-## Blog
+## Blog Deployment
 
 If deploying this site with the `/blog` subdirectory, **do not** deploy the `laraview` container, only the `laraview-db` container.
+
+To run migrations on the block, use the following:
+
+```bash
+docker exec -it justinpaulhammond.com cd blog && php artisan migrate
+```
 
 ### Install Laraview Blog in a Subfolder
 
