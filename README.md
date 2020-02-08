@@ -24,7 +24,7 @@ If deploying this site with the `/blog` subdirectory, **do not** deploy the `lar
 To run migrations on the block, use the following:
 
 ```bash
-docker exec -it justinpaulhammond.com cd blog && php artisan migrate
+docker exec -it justinpaulhammond /bin/sh -c "cd blog && php artisan migrate"
 ```
 
 ### Install Laraview Blog in a Subfolder
