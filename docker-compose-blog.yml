@@ -15,6 +15,8 @@ services:
             - traefik.docker.network=traefik
             - traefik.frontend.rule=Host:justinpaulhammond.com,www.justinpaulhammond.com
             - traefik.port=80
+        volumes:
+            - ./blog/src/storage:/var/www/html/storage
 
 networks:
     traefik:
