@@ -2,7 +2,7 @@
 
 My personal website.
 
-[![Build Status](https://travis-ci.org/Justintime50/justinpaulhammond.com.svg?branch=master)](https://travis-ci.org/Justintime50/justinpaulhammond.com)
+[![Build Status](https://travis-ci.com/Justintime50/justinpaulhammond.com.svg?branch=master)](https://travis-ci.com/Justintime50/justinpaulhammond.com)
 
 ## Usage
 
