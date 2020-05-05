@@ -10,7 +10,7 @@
 <nav class="navbar navbar-light navbar-transparent">
     <a class="navbar-brand" href="#"><img src="/assets/pics/justin-head-circle.png" class="justin-head"> Justin Hammond</a>
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="https://blog.justinpaulhammond.com" class="nav-link">Blog</a></li>
     </ul>
 </nav>
 
@@ -147,7 +147,7 @@
             </a>
         </div>
         <div class="col-md-3 pa-slideanim">
-            <a href="/blog" target="_blank">
+            <a href="https://blog.justinpaulhammond.com" target="_blank">
             <i class="fas fa-blog fa-5x"></i>
             </a>
         </div>
@@ -173,7 +173,7 @@
             <li class="pa-slideanim"><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
         </ul>
 
-        <p class="text-center"><br />See <a href="/blog" target="_blank">my blog</a> for additional articles.</p>
+        <p class="text-center"><br />See <a href="https://blog.justinpaulhammond.com" target="_blank">my blog</a> for additional articles.</p>
     </div>
 </div>
 
