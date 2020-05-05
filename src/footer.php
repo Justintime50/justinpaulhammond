@@ -5,7 +5,7 @@
         <p>&#169; Justin Hammond, All rights reserved.</p>
 
         <p class="text-center">
-            <a href="https://justinpaulhammond.com/blog">Blog</a>
+            <a href="https://blog.justinpaulhammond.com" target="_blank">Blog</a>
             |
             <a href="https://github.com/Justintime50">Github</a>
             |

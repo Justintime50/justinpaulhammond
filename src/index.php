@@ -10,7 +10,7 @@
 <nav class="navbar navbar-light navbar-transparent">
     <a class="navbar-brand" href="#"><img src="/assets/pics/justin-head-circle.png" class="justin-head"> Justin Hammond</a>
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="https://blog.justinpaulhammond.com" class="nav-link">Blog</a></li>
+        <li class="nav-item"><a href="https://blog.justinpaulhammond.com" target="_blank" class="nav-link">Blog</a></li>
     </ul>
 </nav>
 
