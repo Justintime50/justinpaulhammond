@@ -16,4 +16,4 @@ docker-compose -f docker-compose-dev.yml up -d
 
 ## Legacy Setup
 
-The blog used to be configured as a subfolder of this site but was moved to a subdomain for deployment purposes.
+The blog used to be configured as a subfolder of this site but was moved to a subdomain for deployment purposes. View this setup in [legacy](legacy/README.md).
