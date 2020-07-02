@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <title>Justin Hammond</title>
-    <?php include 'header.php';?>
+    <?php include 'header.php'; ?>
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <nav class="navbar navbar-light navbar-transparent">
-    <a class="navbar-brand" href="#"><img src="/assets/pics/justin-head-circle.png" class="justin-head"> Justin Hammond</a>
+    <a class="navbar-brand" href="#"><img src="/assets/pics/avatar.png" class="justin-head"> Justin Hammond</a>
     <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a href="https://blog.justinpaulhammond.com" target="_blank" class="nav-link">Blog</a></li>
     </ul>
@@ -16,13 +16,13 @@
 
 <div class="bg-banner text-center">
     <h1>Hey, I'm Justin Hammond</h1>
-    <h3>Entrepreneur, Developer, &#38; IT Professional</h3>
+    <h3>Entrepreneur, Software Engineer, &#38; IT Professional</h3>
     <img src="assets/pics/justin-transparent.png" style="height:600px;">
 </div>
 
 <div id="entrepreneurship" class="container text-center">
     <h2>Entrepreneurship</h2>
-    <p class="text-center">I am passionate about new, innovative technologies. Programming video games since the age of 12, websites at the age of 14, and starting Tuneup Technology (an IT consulting and repair business) at 16, I have years of experience in technology. I co-founded NCR4 (a web design and hosting company) and played a major role in the creation of Nozani (an ecommerce ageny) in my early 20's. I have been involved with multiple startups in both leadership and technology capacities. Excited about the future, I am always on the lookout for the next big thing!</p>
+    <p class="text-center">I am passionate about new, innovative technologies. Programming video games since the age of 12, websites at the age of 14, and starting Tuneup Technology (an IT consulting and repair business) at 16, I have years of experience in technology. I co-founded NCR4 (a web design and hosting company) and played a major role in the creation of Nozani (an ecommerce ageny) in my early 20's. I have been involved with multiple startups in both leadership and technology capacities.</p>
 
     <div class="row">
         <div class="col-md-6">
@@ -61,25 +61,29 @@
     </div>
 </div>
 
-<div id="developer" class="container">
-    <h2>Developer</h2>
-    <p class="text-center">At heart, I'm a dreamer. I believe that we were meant to create. The incredible thing about coding is you can create something with only a few lines of information and immediately see the results.</p>
+<div id="engineer" class="container">
+    <h2>Software Engineer</h2>
+    <p class="text-center">At heart, I'm a dreamer. I believe that we were meant to create. The incredible thing about developing is you can create something with only a few lines of code and immediately see the results.</p>
 
     <div class="row text-center">
-        <div class="col-md-4 pa-slideanim centered-titles">
-            <h4>Languages&nbsp;<i class="fas fa-chevron-right"></i></h4>
+        <div class="col-md-2 pa-slideanim centered-titles">
+            <h4>Languages</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
-            <i class="fab fa-html5 fa-3x"></i>
-            <h4>HTML</h4>
+            <i class="fab fa-python fa-3x"></i>
+            <h4>Python</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
-            <i class="fab fa-css3 fa-3x"></i>
-            <h4>CSS &#38; SASS</h4>
+            <i class="fab fa-node-js fa-3x"></i>
+            <h4>Node/JS</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fab fa-php fa-3x"></i>
             <h4>PHP</h4>
+        </div>
+        <div class="col-md-2 pa-slideanim">
+            <i class="fab fa-html5 fa-3x"></i>
+            <h4>HTML/CSS</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fas fa-terminal fa-3x"></i>
@@ -87,16 +91,20 @@
         </div>
     </div>
     <div class="row text-center">
-        <div class="col-md-4 pa-slideanim centered-titles">
-            <h4>Frameworks&nbsp;<i class="fas fa-chevron-right"></i></h4>
+        <div class="col-md-2 pa-slideanim centered-titles">
+            <h4>Frameworks</h4>
+        </div>
+        <div class="col-md-2 pa-slideanim">
+            <i class="fab fa-laravel fa-3x"></i>
+            <h4>Laravel</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fab fa-bootstrap fa-3x"></i>
             <h4>Bootstrap</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
-            <i class="fab fa-laravel fa-3x"></i>
-            <h4>Laravel</h4>
+            <i class="fab fa-aws fa-3x"></i>
+            <h4>AWS</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fab fa-salesforce fa-3x"></i>
@@ -108,8 +116,8 @@
         </div>
     </div>
     <div class="row text-center">
-        <div class="col-md-4 pa-slideanim centered-titles">
-            <h4>Utilities&nbsp;<i class="fas fa-chevron-right"></i></h4>
+        <div class="col-md-2 pa-slideanim centered-titles">
+            <h4>Utilities</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fas fa-database fa-3x"></i>
@@ -117,11 +125,15 @@
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fab fa-docker fa-3x"></i>
-            <h4>Docker</h4>
+            <h4>Docker/Vagrant</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fab fa-git fa-3x"></i>
             <h4>Git</h4>
+        </div>
+        <div class="col-md-2 pa-slideanim">
+            <i class="fab fa-github fa-3x"></i>
+            <h4>Hub/Lab/Phab</h4>
         </div>
         <div class="col-md-2 pa-slideanim">
             <i class="fas fa-spinner fa-3x"></i>
@@ -133,7 +145,7 @@
 <div class="bg-blue">
     <div class="container">
         <h3 class="text-center">Projects</h3>
-            <p class="text-center">I'm working on various projects at the moment, too many to list here. Feel free to check out my <a href="https://github.com/Justintime50" target="_blank">Github</a> to view my open-source projects, or ask me about my projects at work. We are always building really cool software at <a href="https://ncr4.com" target="_blank">NCR4</a> or deploying awesome new technical solutions at <a href="https://easypost.com">EasyPost</a>.
+            <p class="text-center">I'm working on various projects at the moment, too many to list here. Feel free to check out my <a href="https://github.com/Justintime50" target="_blank">Github</a> to view my open-source projects, or ask me about my projects at work. We are always working on innovative solutions at <a href="https://ncr4.com" target="_blank">NCR4</a> and <a href="https://easypost.com">EasyPost</a>.
         </div>
     </div>
 </div>
@@ -177,7 +189,7 @@
     </div>
 </div>
 
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
 
 </body>
 </html>
