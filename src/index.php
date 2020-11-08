@@ -22,7 +22,7 @@
 
 <div id="entrepreneurship" class="container text-center">
     <h2>Entrepreneurship</h2>
-    <p class="text-center">I am passionate about new, innovative technologies. Programming video games since the age of 12, websites at the age of 14, and starting Tuneup Technology (an IT consulting and repair business) at 16, I have years of experience in technology. I co-founded NCR4 (a web design and hosting company) and played a major role in the creation of Nozani (an ecommerce ageny) in my early 20's. I have been involved with multiple startups in both leadership and technology capacities.</p>
+    <p class="text-center">I am passionate about new, innovative technologies. Programming video games since the age of 12, websites at the age of 14, and starting Tuneup Technology (an IT consulting and repair business) at 16, I have years of experience in technology. I co-founded NCR4 (a web design and hosting company) and played a major role in the creation of Nozani (an ecommerce agency) in my early 20's. I have been involved with multiple startups in both leadership and technology capacities.</p>
 
     <div class="row">
         <div class="col-md-6">
@@ -169,7 +169,7 @@
             </a>
         </div>
         <div class="col-md-3 pa-slideanim">
-            <a href="https://youtube.com/justintime225" target="_blank">
+            <a href="https://www.youtube.com/c/JustinHammond" target="_blank">
                 <i class="fab fa-youtube fa-5x"></i>
             </a>
         </div>
