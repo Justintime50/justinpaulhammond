@@ -1,5 +1,7 @@
 # Legacy Site Setup
 
+There are other sites contained in this legacy folder that are no longer live such as `music`, `silverwolfgames`, and `wedding`.
+
 ## Blog Deployment
 
 If deploying this site with the `/blog` subdirectory, **do not** deploy the `laraview` container, only the `laraview-db` container.
