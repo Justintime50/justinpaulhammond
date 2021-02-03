@@ -1,9 +1,8 @@
 # justinpaulhammond.com
 
-My personal website.
+My personal website. View at [justinpaulhammond.com](https://justinpaulhammond.com).
 
-[![Build Status](https://travis-ci.com/Justintime50/justinpaulhammond.com.svg?branch=master)](https://travis-ci.com/Justintime50/justinpaulhammond.com)
-[![Coverage Status](https://coveralls.io/repos/github/Justintime50/justinpaulhammond.com/badge.svg?branch=master)](https://coveralls.io/github/Justintime50/justinpaulhammond.com?branch=master)
+[![Build Status](https://github.com/Justintime50/justinpaulhammond.com/workflows/build/badge.svg)](https://github.com/Justintime50/justinpaulhammond.com/actions)
 [![Licence](https://img.shields.io/github/license/justintime50/justinpaulhammond.com)](LICENSE)
 
 ## Usage

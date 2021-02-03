@@ -1,0 +1,16 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Setup Traefik
+        run: docker network create traefik
+      - name: Setup Docker container
+        run: |
+          docker-compose up -d
+          docker ps | grep -q justinpaulhammond
