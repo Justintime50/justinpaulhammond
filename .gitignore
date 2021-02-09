@@ -3,3 +3,4 @@
 blog
 *.css.map
 vendor
+.phplint-cache
