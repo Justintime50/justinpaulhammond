@@ -1,0 +1,117 @@
+$color-primary: #007dda;
+$color-text: #242424;
+$color-white: #fff;
+
+body {
+    font: 1.4rem Helvetica, sans-serif;
+    line-height: 1.8;
+    color: $color-text;
+    overflow-x: none;
+}
+
+h1 {
+    font-size: 7vmin;
+}
+h2 {
+    text-align: center;
+}
+h4 {
+    line-height: 1.375em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.pa-banner-text {
+    color: $color-white;
+}
+
+.bg-blue {
+    background-color: $color-primary;
+    color: $color-white;
+    a,a:focus,a:active,a:visited {
+        color: $color-white;
+        text-decoration: underline;
+    }
+    a:hover {
+        opacity: 0.8;
+    }
+}
+a,a:focus,a:active,a:visited {
+    color: $color-primary;
+    }
+a:hover {
+    opacity: 0.7;
+}
+
+.bg-banner {
+    background-color: $color-primary;
+    padding: 50px 30px 0px 30px;
+    color: $color-white;
+}
+
+.container {
+    padding: 40px;
+}
+
+footer {
+    font-size: 18px;
+    background-color: #242424;
+    color: $color-white;
+}
+
+.col-md-4 {
+    margin: 20px 0px;
+}
+
+h2 {
+    font-size: 4vmin;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 6vmin;
+    }
+    .navbar {
+        .navbar-brand, .nav-link, .nav-item {
+        font-size: 16px !important;
+        }
+    }
+    .justin-head {
+        max-width: 30px !important;
+    }
+}
+
+.logos {
+    height:70px;
+    max-width:100%;
+    margin-top: 20px;
+}
+
+.centered-titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h4 {
+        font-weight: bold;
+    }
+}
+
+.navbar {
+    background-color: $color-primary;
+    .navbar-brand, .nav-link, .nav-item {
+        color: $color-white !important;
+        font-size: 24px;
+        padding: 5px 10px 0px 10px;
+    }
+}
+
+.justin-head {
+    max-width: 45px;
+    border-radius: 50%;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler:focus {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

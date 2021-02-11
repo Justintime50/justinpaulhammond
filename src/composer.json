@@ -21,7 +21,8 @@
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3",
-        "overtrue/phplint": "^1.2"
+        "overtrue/phplint": "^1.2",
+        "laravel/ui": "^3.2"
     },
     "config": {
         "optimize-autoloader": true,

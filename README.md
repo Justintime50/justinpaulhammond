@@ -15,6 +15,19 @@ docker-compose up -d
 docker-compose -f docker-compose-dev.yml up -d
 ```
 
+## Development
+
+```bash
+# Compile SASS and Javascript during development
+npm run dev
+
+# Compile for production
+npm run prod
+
+# Watch for CSS and Javascript changes
+npm run watch
+```
+
 ## Legacy Setup
 
 The blog used to be configured as a subfolder of this site but was moved to a subdomain for deployment purposes. View this setup in [legacy](legacy/README.md).

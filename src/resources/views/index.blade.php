@@ -2,16 +2,12 @@
 <html lang="en">
 <head>
     <title>Justin Hammond</title>
-    <!-- Header Code -->
     <!-- Prioritized Order, Do Not Change -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ asset('pics/favicon.ico') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('pineapple/css/pineapple.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/waterfall.theme.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/stylesheet.css') }}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="https://kit.fontawesome.com/0dd4ecd465.js" crossorigin="anonymous"></script>
     <meta name="keywords" content="justin, paul, hammond, web, design, it, business, resume, pro, developer, software, engineer, experience, management">
     <meta name="description" content="Justin Hammond - Entrepreneur, Developer, & IT Professional">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -20,7 +16,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-140798052-1');
     </script>
 </head>
@@ -192,9 +187,7 @@
             <p>&#169; Justin Hammond, All rights reserved.</p>
         </div>
     </footer>
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="{{ asset('pineapple/js/pineapple.js') }}"></script>
+
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

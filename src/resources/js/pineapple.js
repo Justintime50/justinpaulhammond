@@ -31,18 +31,18 @@ var pineapple = {
      * 4 = 3 + info (Default for Dev)
      **/
 
-    loglevel:     1,
+    loglevel: 1,
     navFadeValue: 500,
 
 
     /* AJAX JAVASCRIPT
         Syntax: 
      */
-    ajax: function (page, selector, data){
+    ajax: function (page, selector, data) {
         selector = selector || "#pa-ajax-content";
-        data     = data || null;
+        data = data || null;
         pineapple.log.info(selector);
-        $.post(page, data, function(data){
+        $.post(page, data, function (data) {
             $(selector).html(data);
         });
         return pineapple;
@@ -53,15 +53,15 @@ var pineapple = {
         Source: https:/www.w3schools.com/howto/howto_css_loader.asp
     */
 
-   pageLoader: function (interval) {
-    interval = interval || 1500; // 1500 makes the parameter optional
-    pineapple.padeLoaderInput = setTimeout(pineapple.showPage, interval);
-    return pineapple;
+    pageLoader: function (interval) {
+        interval = interval || 1500; // 1500 makes the parameter optional
+        pineapple.padeLoaderInput = setTimeout(pineapple.showPage, interval);
+        return pineapple;
     },
 
     showPage: function () {
-        $("#pa-loader").css('display',"none");
-        $("#pa-loaderDiv").css('display',"block");
+        $("#pa-loader").css('display', "none");
+        $("#pa-loaderDiv").css('display', "block");
         return pineapple;
     },
 
@@ -97,7 +97,7 @@ var pineapple = {
                     + hours + " hours,&nbsp; "
                     + minutes + " minutes,&nbsp; "
                     + seconds + " seconds "
-                ;
+                    ;
 
                 // If the count down is finished, write some text
                 if (distance < 0) {
@@ -108,37 +108,37 @@ var pineapple = {
             return pineapple.countdown;
         }
     },
-    log:{
-        info:  function(val){
-            if(pineapple.loglevel === 4){
+    log: {
+        info: function (val) {
+            if (pineapple.loglevel === 4) {
                 console.info(val);
             }
         },
-        log:  function(val){
-            if(pineapple.loglevel >= 3){
+        log: function (val) {
+            if (pineapple.loglevel >= 3) {
                 console.log(val);
             }
         },
-        warn: function(val){
-            if(pineapple.loglevel >= 2){
+        warn: function (val) {
+            if (pineapple.loglevel >= 2) {
                 console.warn(val);
                 console.trace();
             }
         },
-        error:function(val){
-            if(pineapple.loglevel  >= 1){
+        error: function (val) {
+            if (pineapple.loglevel >= 1) {
                 console.error(val);
                 console.trace();
             }
-       },
-       test:function() {
-           console.log("Log level is set to " + pineapple.loglevel);
-           pineapple.log.info('info');
-           pineapple.log.log('log');
-           pineapple.log.warn('warning');
-           pineapple.log.error('error');
-           return "Done with log test";
-       }
+        },
+        test: function () {
+            console.log("Log level is set to " + pineapple.loglevel);
+            pineapple.log.info('info');
+            pineapple.log.log('log');
+            pineapple.log.warn('warning');
+            pineapple.log.error('error');
+            return "Done with log test";
+        }
     }
 };
 
@@ -146,17 +146,17 @@ var pineapple = {
 var pa = pineapple;
 var PA = pineapple;
 
-    /* SMOOTH SCROLLER
-        Source: https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp
-    */
-   
-$(document).ready(function(){
+/* SMOOTH SCROLLER
+    Source: https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp
+*/
 
-    pineapple.scrollOffset = $('body').data('offset')-1;
-    if(pineapple.scrollOffset === undefined || isNaN(pineapple.scrollOffset)) {
+$(document).ready(function () {
+
+    pineapple.scrollOffset = $('body').data('offset') - 1;
+    if (pineapple.scrollOffset === undefined || isNaN(pineapple.scrollOffset)) {
         pineapple.log.warn('data-offset must be defined in order to use smooth scroller');
     }
-    else{
+    else {
         // Add smooth scrolling to all links in the body
         $("a").on('click', function (event) {
             // Make sure this.hash has a value before overriding default behavior
@@ -188,9 +188,9 @@ $(document).ready(function(){
                         window.location.hash = hash;
                     });
                 }
-                catch(e){
+                catch (e) {
                     pineapple.log.warn('data-offset error:');
-                    pineapple.log.warn({error:e});
+                    pineapple.log.warn({ error: e });
                 }
             } // End if
         });
@@ -201,16 +201,16 @@ $(document).ready(function(){
     SLIDEANIM EFFECT
         Source: https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp
     */
-    $(window).scroll(function() {
-    $(".pa-slideanim").each(function(){
-      var pos = $(this).offset().top;
-      var h = window.innerHeight;
-      var winTop = $(window).scrollTop();
-      if (pos < winTop + h - 40) {
-        $(this).addClass("slide");
-      }
+    $(window).scroll(function () {
+        $(".pa-slideanim").each(function () {
+            var pos = $(this).offset().top;
+            var h = window.innerHeight;
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + h - 40) {
+                $(this).addClass("slide");
+            }
+        });
     });
-  });
 
 
     /*
@@ -218,16 +218,16 @@ $(document).ready(function(){
         Source: https://stackoverflow.com/questions/23976498/fading-bootstrap-navbar-on-scrolldown-while-changing-text-color
     */
 
-    $(window).scroll(function() {
-        if($(this).scrollTop() > pineapple.navFadeValue) {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > pineapple.navFadeValue) {
             $('.pa-nav-fade').addClass('opaque');
         } else {
             $('.pa-nav-fade').removeClass('opaque');
         }
     });
 
-    $(window).scroll(function() {
-        if($(this).scrollTop() > pineapple.navFadeValue) {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > pineapple.navFadeValue) {
             $('.pa-nav-fade a').addClass('opaque');
         } else {
             $('.pa-nav-fade a').removeClass('opaque');
