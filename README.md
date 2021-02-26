@@ -15,6 +15,8 @@ docker-compose up -d
 docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d
 ```
 
+Visit `justin.localhost` locally or `justinpaulhammond.com` in production.
+
 ## Development
 
 ```bash

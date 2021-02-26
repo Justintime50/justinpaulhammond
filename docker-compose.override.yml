@@ -1,4 +1,6 @@
 services:
   justinpaulhammond:
+    labels:
+      - traefik.frontend.rule=Host:justin.localhost
     volumes:
       - ./src:/var/www/html

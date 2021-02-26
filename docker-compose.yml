@@ -8,7 +8,6 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=traefik
-      - traefik.frontend.rule=Host:justin.localhost
       - traefik.port=80
 
 networks:
