@@ -1,19 +1,17 @@
-version: "3.7"
-
 services:
-    justinpaulhammond:
-        build: .
-        restart: always
-        container_name: justinpaulhammond
-        networks:
-            - traefik
-        labels:
-            - traefik.enable=true
-            - traefik.docker.network=traefik
-            - traefik.frontend.rule=Host:justinpaulhammond.com,www.justinpaulhammond.com
-            - traefik.port=80
+  justinpaulhammond:
+    build: .
+    restart: always
+    container_name: justinpaulhammond
+    networks:
+      - traefik
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik
+      - traefik.frontend.rule=Host:justin.localhost
+      - traefik.port=80
 
 networks:
-    traefik:
-        external:
-            name: traefik
+  traefik:
+    external:
+      name: traefik

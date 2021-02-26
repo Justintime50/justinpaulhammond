@@ -1,0 +1,4 @@
+services:
+  justinpaulhammond:
+    labels:
+      - traefik.frontend.rule=Host:justinpaulhammond.com,www.justinpaulhammond.com

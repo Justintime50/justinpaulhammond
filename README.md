@@ -8,11 +8,11 @@ My personal website. View at [justinpaulhammond.com](https://justinpaulhammond.c
 ## Usage
 
 ```bash
-# Deploy the site in prod
+# Deploy the site locally
 docker-compose up -d
 
-# Deploy the site locally
-docker-compose -f docker-compose-dev.yml up -d
+# Deploy the site in production
+docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d
 ```
 
 ## Development
