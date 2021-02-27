@@ -1,6 +1,6 @@
 services:
   justinpaulhammond:
-    build: .
+    image: justintime50/laravel:8.0
     restart: always
     container_name: justinpaulhammond
     networks:
