@@ -46,7 +46,7 @@
         <p class="text-center">I love all things tech. I've been programming since the age of 12, repairing iPhones since 16, and founding tech companies since 20. I'm an open source fanatic, Apple fanboy, and love to explore new tech. I spend my time coding open source projects, tinkering with electronics and new tech products, and consulting teams on how to get things done.</p>
         <div class="row text-center">
                 <div class="col pa-slideanim">
-                    <a href="https://nextcloud.justinpaulhammond.com/s/fEHG8RzzEYdsJct" target="_blank">
+                    <a href="https://github.com/Justintime50/Justintime50/blob/main/resume.md" target="_blank">
                         <i class="fas fa-file-pdf fa-4x"></i>
                     </a>
                 </div>
