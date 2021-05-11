@@ -8,6 +8,8 @@
 
     <!-- What to exclude -->
     <exclude-pattern>*/bin/*</exclude-pattern>
+    <exclude-pattern>*/bootstrap/*</exclude-pattern>
+    <exclude-pattern>*/migrations/*</exclude-pattern>
     <exclude-pattern>*/node_modules/*</exclude-pattern>
     <exclude-pattern>*/storage/*</exclude-pattern>
     <exclude-pattern>*/vendor/*</exclude-pattern>
