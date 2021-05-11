@@ -28,6 +28,9 @@ npm run prod
 
 # Watch for CSS and Javascript changes
 npm run watch
+
+# Lint project
+./bin/phpcs
 ```
 
 ## Legacy Setup
