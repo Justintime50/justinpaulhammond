@@ -30,7 +30,7 @@ npm run prod
 npm run watch
 
 # Lint project
-./bin/phpcs
+composer lint
 ```
 
 ## Legacy Setup
