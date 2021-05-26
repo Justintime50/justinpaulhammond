@@ -32,7 +32,3 @@ npm run watch
 # Lint project
 composer lint
 ```
-
-## Legacy Setup
-
-The blog used to be configured as a subfolder of this site but was moved to a subdomain for deployment purposes. View this setup in [legacy](legacy/README.md).
