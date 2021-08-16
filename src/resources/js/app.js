@@ -1,2 +1,3 @@
 require('./bootstrap');
-require('./pineapple');
+
+window.pineapple = require('pineapple-library/pineapple/dist/js/pineapple.min');

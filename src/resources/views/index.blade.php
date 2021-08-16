@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <title>Justin Hammond</title>
-    <!-- Prioritized Order, Do Not Change -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ asset('pics/favicon.ico') }}">
@@ -31,6 +30,7 @@
             <li class="nav-item"><a href="https://blog.justinpaulhammond.com" target="_blank" class="nav-link">Blog</a></li>
             <li class="nav-item"><a href="https://github.com/justintime50" target="_blank" class="nav-link">GitHub</a></li>
             <li class="nav-item"><a href="https://youtube.com/c/justinhammond" target="_blank" class="nav-link">YouTube</a></li>
+            <li class="nav-item"><a href="https://website-archive.justinpaulhammond.com" target="_blank" class="nav-link">Websites</a></li>
         </ul>
         </div>
     </nav>
