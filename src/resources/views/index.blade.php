@@ -174,7 +174,7 @@
             <h2>News &#38; Articles</h2>
             <!-- TODO: Add data from an API call to Laraview so it auto-updates -->
             <ul style="display:table; margin:0 auto;">
-                <li class="pa-slideanim"><a href="https://utah.comcast.com/comcast-leaders-achievers/" target="_blank">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
+                <li class="pa-slideanim"><a href="https://utah.comcast.com/2013/05/20/congratulations-comcast-leaders-and-achievers-scholarship-winners/" target="_blank">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
                 <li class="pa-slideanim"><a href="https://chhighschool.wordpress.com/tag/justin-hammond/" target="_blank">Copper Hills High School Comcast Scholarship Recognition</a></li>
                 <li class="pa-slideanim"><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
                 <li class="pa-slideanim">See <a href="https://blog.justinpaulhammond.com" target="_blank">my blog</a> for additional articles.</li>
