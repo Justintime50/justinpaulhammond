@@ -1,5 +1,7 @@
 services:
   justinpaulhammond:
+    deploy:
+      replicas: 2
     labels:
       - traefik.frontend.rule=Host:justinpaulhammond.com,www.justinpaulhammond.com
     volumes:

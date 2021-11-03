@@ -2,7 +2,6 @@ services:
   justinpaulhammond:
     build: .
     restart: always
-    container_name: justinpaulhammond
     networks:
       - traefik
     labels:
@@ -12,5 +11,4 @@ services:
 
 networks:
   traefik:
-    external:
-      name: traefik
+    name: traefik
