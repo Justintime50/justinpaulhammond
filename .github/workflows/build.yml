@@ -13,7 +13,8 @@ jobs:
       - name: Setup Docker container
         run: |
           docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d
-          docker ps | grep -q justinpaulhammond
+          docker ps | grep -q justinpaulhammond-justinpaulhammond-1
+          docker ps | grep -q justinpaulhammond-justinpaulhammond-2
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -40,4 +41,4 @@ jobs:
           webhook_type: "json-extended"
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
-          data: '{ "pipeline": "deploy", "compose" : "docker-compose.yml -f docker-compose-prod.yml" }'
+          data: '{ "pipeline": "deploy", "prod_compose": true, "healthcheck": ["justinpaulhammond-justinpaulhammond-1", "justinpaulhammond-justinpaulhammond-2"] }'

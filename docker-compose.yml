@@ -1,7 +1,7 @@
 services:
   justinpaulhammond:
     build: .
-    restart: always
+    restart: unless-stopped
     networks:
       - traefik
     labels:
