@@ -5,17 +5,29 @@ My personal website. View at [justinpaulhammond.com](https://justinpaulhammond.c
 [![Build Status](https://github.com/Justintime50/justinpaulhammond.com/workflows/build/badge.svg)](https://github.com/Justintime50/justinpaulhammond.com/actions)
 [![Licence](https://img.shields.io/github/license/justintime50/justinpaulhammond.com)](LICENSE)
 
+## Install
+
+```bash
+# Copy the env file, edit as needed
+cp src/.env-example src/.env
+
+# Run the setup script which will bootstrap all the requirements and spin up the service
+./setup.sh
+```
+
 ## Usage
+
+Visit `justin.localhost` locally or `justinpaulhammond.com` in production.
+
+## Deploy
 
 ```bash
 # Deploy the site locally
-docker-compose up -d
+docker compose up -d
 
 # Deploy the site in production
-docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d
+docker compose -f docker-compose.yml -f docker-compose-prod.yml up -d
 ```
-
-Visit `justin.localhost` locally or `justinpaulhammond.com` in production.
 
 ## Development
 
