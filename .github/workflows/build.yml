@@ -12,6 +12,7 @@ jobs:
         run: docker network create traefik
       - name: Setup Docker container
         run: |
+          cp src/.env-example src/.env
           ./setup.sh
           docker ps | grep -q justinpaulhammond-justinpaulhammond-1
   lint:

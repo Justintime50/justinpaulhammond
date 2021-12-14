@@ -24,3 +24,6 @@ Route::get('/index', function () {
 Route::get('/home', function () {
     return view('index');
 });
+
+// This is temporary until moved to its own project
+Route::get('/harvey', 'HarveyController@readPipelines')->name('harvey');
