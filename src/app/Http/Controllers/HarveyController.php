@@ -24,4 +24,21 @@ class HarveyController extends Controller
 
         return view('/harvey', compact('pipelines'));
     }
+    
+    /**
+     * Gets the log details of a single pipeline.
+     *
+     * @return void
+     */
+    public function readPipeline(Request $request)
+    {
+        try {
+            $response = Http::timeout(10)->get('http://justinpaulhammond.com:5000/pipelines/' . $request->project);
+            $pipeline = $response->json();
+        } catch(Exception) {
+            $pipeline = null;
+        }
+
+        return view('harvey-pipeline', compact('pipeline'));
+    }
 }

@@ -19,14 +19,14 @@
             </thead>
             <tbody>
             @forelse ($pipelines as $pipeline => $details)
-            <tr>
-                <td>{{ $pipeline }}</td>
-                <td>{{ $details['last_run'] }}</td>
-                <td>{{ $details['status'] }}</td>
-            </tr>
-        @empty
-            <p>There are no pipelines at this time.</p>
-        @endforelse
+                <tr>
+                    <td><a href="harvey-pipeline?project={{$pipeline}}">{{ $pipeline }}</a></td>
+                    <td>{{ $details['last_run'] }}</td>
+                    <td>{{ $details['status'] }}</td>
+                </tr>
+            @empty
+                <p>There are no pipelines at this time.</p>
+            @endforelse
             </tbody>
         </table>
     </div>
