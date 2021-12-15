@@ -18,13 +18,20 @@ class HarveyController extends Controller
         try {
             $response = Http::timeout(10)->get('http://justinpaulhammond.com:5000/pipelines');
             $pipelines = $response->json();
-        } catch (Exception) {
+        } catch (Exception $error) {
             $pipelines = [];
         }
 
-        return view('/harvey', compact('pipelines'));
+        try {
+            $response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/health');
+            $harvey_status = $response->status();
+        } catch (Exception $error) {
+            $harvey_status = 503;
+        }
+
+        return view('/harvey', compact('pipelines', 'harvey_status'));
     }
-    
+
     /**
      * Gets the log details of a single pipeline.
      *
@@ -35,7 +42,7 @@ class HarveyController extends Controller
         try {
             $response = Http::timeout(10)->get('http://justinpaulhammond.com:5000/pipelines/' . $request->project);
             $pipeline = $response->json();
-        } catch(Exception) {
+        } catch (Exception $error) {
             $pipeline = null;
         }
 
