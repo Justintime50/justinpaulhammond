@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Http\Client\RequestException;
 
 class HarveyController extends Controller
 {
@@ -15,19 +16,11 @@ class HarveyController extends Controller
      */
     public function readPipelines()
     {
-        try {
-            $response = Http::timeout(10)->get('http://justinpaulhammond.com:5000/pipelines');
-            $pipelines = $response->json();
-        } catch (Exception $error) {
-            $pipelines = [];
-        }
+        $pipelines_response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/pipelines');
+        $pipelines = $pipelines_response->successful() ? $pipelines_response->json() : [];
 
-        try {
-            $response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/health');
-            $harvey_status = $response->status();
-        } catch (Exception $error) {
-            $harvey_status = 503;
-        }
+        $harvey_health_response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/health');
+        $harvey_status = $harvey_health_response->status();
 
         return view('/harvey', compact('pipelines', 'harvey_status'));
     }
@@ -39,12 +32,8 @@ class HarveyController extends Controller
      */
     public function readPipeline(Request $request)
     {
-        try {
-            $response = Http::timeout(10)->get('http://justinpaulhammond.com:5000/pipelines/' . $request->project);
-            $pipeline = $response->json();
-        } catch (Exception $error) {
-            $pipeline = null;
-        }
+        $response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/pipelines/' . $request->project);
+        $pipeline = $response->successful() ? $response->json() : null;
 
         return view('harvey-pipeline', compact('pipeline'));
     }

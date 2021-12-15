@@ -15,12 +15,13 @@
 
 <body>
     <div class="container">
-        <h1>Project Logs</h1>
+        <h1>Deployment Logs</h1>
         <a href="harvey"><button class="btn btn-primary">Back to Pipelines</button></a>
-        <p><b>Project:</b> {{ $pipeline['project'] }}</p>
-        <p><b>Last Run:</b> {{ $pipeline['last_run'] }}</p>
-        <p><b>Status:</b> {{ $pipeline['status'] }}</p>
-        <p><b>Logs:</b> {{ $pipeline['project_log'] }}</p>
+        @php $status_color = $pipeline['status'] == 'Success' ? 'text-success' : 'text-danger'; @endphp
+        <p><b>Project:</b> {{ $pipeline['project'] ?? '' }}</p>
+        <p><b>Last Run:</b> {{ $pipeline['last_run'] ?? '' }}</p>
+        <p><b>Status:</b> <span class="{{ $status_color }}">{{ $pipeline['status'] ?? '' }}</span></p>
+        <p><b>Logs:</b> {{ $pipeline['project_log'] ?? '' }}</p>
     </div>
     
     <script src="{{ asset('js/app.js') }}"></script>
