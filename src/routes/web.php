@@ -26,5 +26,6 @@ Route::get('/home', function () {
 });
 
 // This is temporary until moved to its own project
-Route::get('/harvey', 'HarveyController@readPipelines')->name('harvey');
+Route::get('/harvey', 'HarveyController@dashboard')->name('harvey');
 Route::get('/harvey-pipeline', 'HarveyController@readPipeline')->name('harvey-pipeline');
+Route::get('/harvey-project', 'HarveyController@readProject')->name('harvey-project');
