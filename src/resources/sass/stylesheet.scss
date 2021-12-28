@@ -54,6 +54,10 @@ a:hover {
   color: $color-white;
 }
 
+.justin-banner-image {
+  height:600px;
+}
+
 .container {
   padding: 40px;
 }
@@ -125,4 +129,9 @@ h2 {
 
 .navbar-toggler:focus {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.news-table-items {
+  display:table;
+  margin: 0 auto;
 }

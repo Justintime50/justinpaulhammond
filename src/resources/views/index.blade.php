@@ -38,7 +38,7 @@
     <div class="bg-banner text-center">
         <h1>Hey, I'm Justin Hammond 👋</h1>
         <h3>Software Engineer, IT Pro, &#38; Tech Enthusiast</h3>
-        <img src="{{ asset('pics/justin-transparent.png') }}" style="height:600px;">
+        <img src="{{ asset('pics/justin-transparent.png') }}" class="justin-banner-image">
     </div>
 
     <div id="about" class="container">
@@ -173,7 +173,7 @@
         <div class="container">
             <h2>News &#38; Articles</h2>
             <!-- TODO: Add data from an API call to Laraview so it auto-updates -->
-            <ul style="display:table; margin:0 auto;">
+            <ul class="news-table-items">
                 <li class="pa-slideanim"><a href="https://utah.comcast.com/2013/05/20/congratulations-comcast-leaders-and-achievers-scholarship-winners/" target="_blank">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
                 <li class="pa-slideanim"><a href="https://chhighschool.wordpress.com/tag/justin-hammond/" target="_blank">Copper Hills High School Comcast Scholarship Recognition</a></li>
                 <li class="pa-slideanim"><a href="https://thoriumsim.com/blog/2019/04/01/lessons-learned-a-new-perspective" target="_blank">Lessons Learned Running a Space Simulator</a></li>
