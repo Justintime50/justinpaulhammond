@@ -54,7 +54,7 @@
                     </thead>
                     <tbody>
                         @foreach ($pipelines as $pipeline)
-                            @php $status_color = $pipeline['status'] == 'Success' ? 'text-success' : 'text-danger'; @endphp
+                            @php $status_color = ( $pipeline['status'] == 'Success' ) ? 'text-success' : (( $pipeline['status'] == 'In-Progress' ) ? 'text-primary' : 'text-danger'); @endphp
                             <tr>
                                 <td><a href="harvey-pipeline?pipeline={{ $pipeline['project'] }}-{{ $pipeline['commit'] }}">{{ $pipeline['project'] }}@<br />{{ $pipeline['commit'] }}</a></td>
                                 <td>{{ $pipeline['timestamp'] }}</td>
