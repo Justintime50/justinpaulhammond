@@ -17,7 +17,7 @@
     <div class="container">
         <h1>Deployment</h1>
         <a href="harvey"><button class="btn btn-primary">Back to Dashboard</button></a>
-        @php $status_color = ( $pipeline['status'] == 'Success' ) ? 'text-success' : (( $pipeline['status'] == 'In-Progress' ) ? 'text-primary' : 'text-danger'); @endphp
+        @php $status_color = ( $pipeline['status'] == 'Success' ) ? 'text-success' : (( $pipeline['status'] == 'In-Progress' ) ? 'text-info' : 'text-danger'); @endphp
         <p><b>Project:</b> {{ $pipeline['project'] }}</p>
         <p><b>Commit:</b> {{ $pipeline['commit'] }}</p>
         <p><b>Timestamp:</b> {{ $pipeline['timestamp'] }}</p>
