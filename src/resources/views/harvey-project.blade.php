@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <h1>{{ $project }}</h1>
-        <p><b>Locked:</b> {{ !empty($locked) ? $locked : 'false' }}</p>
+        <p><b>Locked:</b> {{ !empty($locked) ? var_export($locked) : 'false' }}</p>
         <a href="harvey"><button class="btn btn-primary">Back to Dashboard</button></a>
 
         <button class="btn btn-warning" disabled>Redeploy</button>
