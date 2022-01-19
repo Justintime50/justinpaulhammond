@@ -27,12 +27,14 @@
                     <thead>
                         <th>Project</th>
                         <th>Status</th>
+                        <th>Locked</th>
                     </thead>
                     <tbody>
                         @foreach ($projects as $project)
                             <tr>
                                 <td><a href="harvey-project?project={{ $project }}">{{ $project }}</a></td>
                                 <td>Unknown</td>
+                                <td>See Project</td>
                             </tr>
                         @endforeach
                     </tbody>

@@ -51,9 +51,12 @@ class HarveyController extends Controller
     {
         $project = $request->project;
 
-        $response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/pipelines?project=' . $project);
-        $pipelines = $response->successful() ? $response->json()['pipelines'] : null;
+        $lock_response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/locks/' . $project);
+        $locked = $lock_response->successful() ? $lock_response->json()['locked'] : null;
 
-        return view('harvey-project', compact('project', 'pipelines'));
+        $project_response = Http::timeout(5)->get('http://justinpaulhammond.com:5000/pipelines?project=' . $project);
+        $pipelines = $project_response->successful() ? $project_response->json()['pipelines'] : null;
+
+        return view('harvey-project', compact('project', 'locked', 'pipelines'));
     }
 }

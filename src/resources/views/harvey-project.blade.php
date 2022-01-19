@@ -16,9 +16,11 @@
 <body>
     <div class="container">
         <h1>{{ $project }}</h1>
+        <p><b>Locked:</b> {{ !empty($locked) ? $locked : 'false' }}</p>
         <a href="harvey"><button class="btn btn-primary">Back to Dashboard</button></a>
 
         <button class="btn btn-warning" disabled>Redeploy</button>
+        <button class="btn btn-secondary" disabled>{{ $locked == false ? 'Lock' : 'Unlock' }} Deployments</button>
         <button class="btn btn-danger" disabled>Shutdown</button>
 
         <h2 class="text-left">Deployments</h2>
