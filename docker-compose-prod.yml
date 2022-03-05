@@ -1,13 +1,13 @@
+version: "3.8"
 services:
   justinpaulhammond:
     deploy:
       replicas: 2
     healthcheck:
       test: [ "CMD", "curl", "-f", "http://localhost" ]
-      interval: 60s
+      interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 30s
     labels:
       - traefik.frontend.rule=Host:justinpaulhammond.com,www.justinpaulhammond.com
     volumes:
