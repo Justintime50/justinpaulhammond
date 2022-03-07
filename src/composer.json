@@ -12,7 +12,8 @@
         "fruitcake/laravel-cors": "^2.1",
         "guzzlehttp/guzzle": "^7.4",
         "laravel/framework": "^9.0",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "sentry/sentry-laravel": "^2.11"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",
