@@ -7,22 +7,17 @@
         "watch-poll": "npm run watch -- --watch-poll",
         "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
         "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.11.3",
         "axios": "^0.26",
-        "bootstrap": "^4.6",
+        "bootstrap": "^5.0",
         "cross-env": "^7.0",
-        "jquery": "^3.6",
         "laravel-mix": "^6.0.43",
-        "lodash": "^4.17.21",
-        "popper.js": "^1.16",
+        "pineapple-library": "^3.0.0",
         "resolve-url-loader": "^5.0",
         "sass": "^1.49.8",
-        "sass-loader": "^12.6",
-        "vue-template-compiler": "^2.6.14"
-    },
-    "dependencies": {
-        "pineapple-library": "^2.3.0"
+        "sass-loader": "^12.6"
     }
 }
