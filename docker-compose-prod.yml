@@ -10,5 +10,7 @@ services:
       retries: 3
     labels:
       - "traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.com`) || Host(`www.justinpaulhammond.com`)"
+      - "traefik.http.routers.justinpaulhammond.tls=true"
+      - "traefik.http.routers.justinpaulhammond.tls.certresolver=letsencrypt"
     volumes:
       - ./src/storage:/var/www/html/storage
