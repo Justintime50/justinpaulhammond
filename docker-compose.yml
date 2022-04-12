@@ -7,8 +7,6 @@ services:
       - traefik
     labels:
       - traefik.enable=true
-      - traefik.docker.network=traefik
-      - traefik.port=80
 
 networks:
   traefik:

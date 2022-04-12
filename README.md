@@ -17,7 +17,7 @@ cp src/.env-example src/.env
 
 ## Usage
 
-Visit `justin.localhost` locally or `justinpaulhammond.com` in production.
+Visit `justinpaulhammond.localhost` locally or `justinpaulhammond.com` in production.
 
 ## Deploy
 

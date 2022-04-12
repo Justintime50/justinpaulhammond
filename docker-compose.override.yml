@@ -2,6 +2,6 @@ version: "3.8"
 services:
   justinpaulhammond:
     labels:
-      - traefik.frontend.rule=Host:justin.localhost
+      - "traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.localhost`)"
     volumes:
       - ./src:/var/www/html
