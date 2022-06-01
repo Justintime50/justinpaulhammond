@@ -1,3 +1,17 @@
+# General
 .idea
 .DS_Store
-src/public/js/app.js.LICENSE.txt
+
+# Secrets
+*.env
+
+# PHP
+vendor
+*.cache
+
+# Other
+*.css.map
+*.LICENSE.txt
+
+# Laravel
+src/storage/images/
