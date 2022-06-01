@@ -1,3 +1,9 @@
+// Variables
+
+$color-primary: #007dda;
+$color-text: #242424;
+$color-white: #fff;
+
 // Elements
 
 body {
@@ -35,7 +41,7 @@ a:hover {
 
 footer {
   font-size: 18px;
-  background-color: #242424;
+  background-color: $color-text;
   color: $color-white;
 }
 
