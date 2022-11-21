@@ -189,8 +189,12 @@
     <div class="bg-blue">
         <div class="container">
             <h2>News &#38; Articles</h2>
-            <!-- TODO: Add data from an API call to Laraview so it auto-updates -->
+            {{-- TODO: Add data from an API call to Laraview so it auto-updates --}}
             <ul class="news-table-items">
+                <li class="pa-slideanim"><a
+                        href="https://www.easypost.com/blog/2022-08-04-lessons-learned-overhauling-client-libraries-across-seven-languages"
+                        target="_blank">Lessons Learned Overhauling Client Libraries Across 7 Languages (EasyPost)</a>
+                </li>
                 <li class="pa-slideanim"><a
                         href="https://utah.comcast.com/2013/05/20/congratulations-comcast-leaders-and-achievers-scholarship-winners/"
                         target="_blank">Utah $10,000 Leaders &#38; Achievers Award Recipient</a></li>
