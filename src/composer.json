@@ -52,7 +52,7 @@
     "scripts": {
         "coverage": "XDEBUG_MODE=coverage ./bin/phpunit --coverage-html clover.html --coverage-clover clover.xml",
         "fix": "./bin/phpcbf",
-        "lint": "./bin/phpcs --standard=./vendor/justintime50/styles/styles/php/phpcs.xml .",
+        "lint": "./bin/phpcs --standard=./node_modules/justintime50-styles/src/php/phpcs.xml .",
         "test": "./bin/phpunit",
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
