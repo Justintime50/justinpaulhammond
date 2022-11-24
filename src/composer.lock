@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e13868098acff0e8ad07840de7a16c68",
+    "content-hash": "18a318ef5a2ed62dad1599e010cf8e1a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6913,46 +6913,6 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
-            "name": "justintime50/styles",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Justintime50/styles.git",
-                "reference": "f72e0f120ebb0ee26f44ce3504699b9aa946f549"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Justintime50/styles/zipball/f72e0f120ebb0ee26f44ce3504699b9aa946f549",
-                "reference": "f72e0f120ebb0ee26f44ce3504699b9aa946f549",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Justintime50",
-                    "email": "39606064+Justintime50@users.noreply.github.com"
-                }
-            ],
-            "description": "A collection of style guides and best practices used for my projects and teams.",
-            "homepage": "https://github.com/Justintime50/styles",
-            "support": {
-                "issues": "https://github.com/Justintime50/styles/issues",
-                "source": "https://github.com/Justintime50/styles/tree/main"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Justintime50",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-11-24T02:36:28+00:00"
-        },
-        {
             "name": "laravel/ui",
             "version": "v3.4.6",
             "source": {
@@ -9132,9 +9092,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "justintime50/styles": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

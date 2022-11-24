@@ -22,8 +22,7 @@
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "^3.6",
-        "laravel/ui": "^3.4",
-        "justintime50/styles": "dev-main#f72e0f120ebb0ee26f44ce3504699b9aa946f549"
+        "laravel/ui": "^3.4"
     },
     "config": {
         "optimize-autoloader": true,
