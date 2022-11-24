@@ -8,8 +8,8 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production",
-        "lint": "npx stylelint resources/sass/*.scss --custom-syntax postcss-scss",
-        "fix": "npx stylelint resources/sass/*.scss --custom-syntax postcss-scss --fix"
+        "lint": "npx stylelint resources/sass/*.scss --config vendor/justintime50/styles/styles/css/.stylelintrc.json --custom-syntax postcss-scss",
+        "fix": "npx stylelint resources/sass/*.scss --config vendor/justintime50/styles/styles/css/.stylelintrc.json --custom-syntax postcss-scss --fix"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.3",

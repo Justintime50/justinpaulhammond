@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "068643a9c4abc16cd373951b2050d0a1",
+    "content-hash": "e13868098acff0e8ad07840de7a16c68",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6918,12 +6918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Justintime50/styles.git",
-                "reference": "aca0a9af43e6d4807c2edac0ee95d7848d7261c2"
+                "reference": "f72e0f120ebb0ee26f44ce3504699b9aa946f549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Justintime50/styles/zipball/aca0a9af43e6d4807c2edac0ee95d7848d7261c2",
-                "reference": "aca0a9af43e6d4807c2edac0ee95d7848d7261c2",
+                "url": "https://api.github.com/repos/Justintime50/styles/zipball/f72e0f120ebb0ee26f44ce3504699b9aa946f549",
+                "reference": "f72e0f120ebb0ee26f44ce3504699b9aa946f549",
                 "shasum": ""
             },
             "default-branch": true,
@@ -6950,7 +6950,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-24T00:24:43+00:00"
+            "time": "2022-11-24T02:36:28+00:00"
         },
         {
             "name": "laravel/ui",
