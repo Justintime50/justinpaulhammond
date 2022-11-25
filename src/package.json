@@ -16,7 +16,7 @@
         "axios": "^0.26",
         "bootstrap": "^5.0",
         "laravel-mix": "^6.0.43",
-        "justintime50-styles": "^0.1.0",
+        "justintime50-styles": "^0.2.0",
         "pineapple-library": "^3.0.0",
         "postcss-scss": "^4.0.4",
         "resolve-url-loader": "^5.0",
