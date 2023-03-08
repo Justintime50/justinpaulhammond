@@ -33,7 +33,7 @@ main() {
 }
 
 healthcheck() {
-    docker ps | grep -q justinpaulhammond-justinpaulhammond-1
+    docker ps | grep -q justinpaulhammond-justinpaulhammond-1 || false
 }
 
 main
