@@ -63,7 +63,7 @@ jobs:
         run: cd src && composer self-update
       - name: Install Dependencies
         run: |
-          cp src/.env-example src/.env && cp .env-example .env
+          cp src/.env-example src/.env
           ./setup.sh
       - name: Test
         run: cd src && composer coverage
