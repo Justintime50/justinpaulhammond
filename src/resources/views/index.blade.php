@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ asset('pics/favicon.ico') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <script src="https://kit.fontawesome.com/0dd4ecd465.js" crossorigin="anonymous"></script>
     <meta name="keywords"
         content="justin, paul, hammond, web, design, it, business, resume, pro, developer, software, engineer, experience, management">
@@ -33,7 +33,7 @@
                 aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarTop">
+            <div class="navbar-collapse justify-content-end collapse" id="navbarTop">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="https://blog.justinpaulhammond.com" target="_blank"
                             class="nav-link">Blog</a></li>
@@ -196,8 +196,6 @@
             <p>&#169; Justin Hammond, All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>

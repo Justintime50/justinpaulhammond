@@ -49,9 +49,27 @@ jobs:
         run: cd src && npm install
       - name: Run SASS lint
         run: cd src && npm run lint
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+          coverage: xdebug
+      - name: Install Composer
+        run: cd src && composer self-update
+      - name: Install Dependencies
+        run: |
+          cp src/.env-example src/.env && cp .env-example .env
+          ./setup.sh
+      - name: Test
+        run: cd src && composer coverage
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: ["docker", "lint-php", "lint-sass"]
+    needs: ["docker", "lint-php", "lint-sass", "test"]
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Harvey
