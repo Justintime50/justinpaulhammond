@@ -116,7 +116,7 @@ footer {
 
 // Media Queries
 
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
   h2 {
     font-size: 6vmin;
   }

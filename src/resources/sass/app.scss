@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 
 // Variables
-@import "variables";
+@import url("variables");
 
 // Bootstrap
-@import "bootstrap/scss/bootstrap";
+@import url("bootstrap/scss/bootstrap");
 
 // Internal
-@import "pineapple-library/pineapple/scss/pineapple";
-@import "stylesheet";
+@import url("pineapple-library/pineapple/scss/pineapple");
+@import url("stylesheet");

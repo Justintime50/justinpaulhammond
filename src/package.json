@@ -16,8 +16,8 @@
         "postcss-scss": "^4.0.4",
         "resolve-url-loader": "^5.0",
         "sass": "^1.49.8",
-        "stylelint": "^14.8.5",
-        "stylelint-config-standard": "^25.0.0",
+        "stylelint": "^15.6",
+        "stylelint-config-standard": "^33.0",
         "vite": "^4.0.0"
     }
 }
