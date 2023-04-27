@@ -7,17 +7,17 @@
         "fix": "npx stylelint resources/sass/*.scss --config node_modules/justintime50-styles/src/css/.stylelintrc.json --custom-syntax postcss-scss --fix"
     },
     "devDependencies": {
-        "@popperjs/core": "^2.11.3",
-        "axios": "^1.1.2",
+        "@popperjs/core": "^2.11",
+        "axios": "^1.3",
         "bootstrap": "^5.0",
         "laravel-vite-plugin": "^0.7.3",
-        "justintime50-styles": "^0.3.0",
-        "pineapple-library": "^3.0.0",
-        "postcss-scss": "^4.0.4",
+        "justintime50-styles": "^0.4.0",
+        "pineapple-library": "^3.0",
+        "postcss-scss": "^4.0",
         "resolve-url-loader": "^5.0",
-        "sass": "^1.49.8",
+        "sass": "^1.62",
         "stylelint": "^15.6",
         "stylelint-config-standard": "^33.0",
-        "vite": "^4.0.0"
+        "vite": "^4.3"
     }
 }
