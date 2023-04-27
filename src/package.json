@@ -14,7 +14,6 @@
         "justintime50-styles": "^0.4.0",
         "pineapple-library": "^3.0",
         "postcss-scss": "^4.0",
-        "resolve-url-loader": "^5.0",
         "sass": "^1.62",
         "stylelint": "^15.6",
         "stylelint-config-standard": "^33.0",
