@@ -1,0 +1,17 @@
+@media screen and (width <=768px) {
+  h2 {
+    font-size: 6vmin;
+  }
+
+  .navbar {
+    .navbar-brand,
+    .nav-link,
+    .nav-item {
+      font-size: 16px !important;
+    }
+  }
+
+  .justin-head {
+    max-width: 30px !important;
+  }
+}

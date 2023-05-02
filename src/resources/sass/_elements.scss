@@ -1,0 +1,40 @@
+@import "variables";
+
+body {
+  font: 1.4rem Helvetica, sans-serif;
+  line-height: 1.8;
+  color: $color-text;
+  overflow-x: none;
+}
+
+h1 {
+  font-size: 7vmin;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4vmin;
+}
+
+h4 {
+  line-height: 1.375em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+a,
+a:focus,
+a:active,
+a:visited {
+  color: $color-primary;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+footer {
+  font-size: 18px;
+  background-color: $color-text;
+  color: $color-white;
+}

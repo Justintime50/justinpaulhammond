@@ -1,0 +1,38 @@
+@import "variables";
+
+.bg-blue {
+  background-color: $color-primary;
+  color: $color-white;
+
+  a,
+  a:focus,
+  a:active,
+  a:visited {
+    color: $color-white;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+}
+
+.bg-banner {
+  background-color: $color-primary;
+  padding: 50px 30px 0;
+  color: $color-white;
+}
+
+.justin-banner-image {
+  height: 600px;
+}
+
+.justin-head {
+  max-width: 45px;
+  border-radius: 50%;
+}
+
+.news-table-items {
+  display: table;
+  margin: 0 auto;
+}
