@@ -7,6 +7,7 @@
         "fix": "npx stylelint resources/sass/*.scss --config node_modules/justintime50-styles/src/css/.stylelintrc.json --custom-syntax postcss-scss --fix"
     },
     "devDependencies": {
+        "axios": "^1.3",
         "bootstrap": "^5.2",
         "laravel-vite-plugin": "^0.7.4",
         "justintime50-styles": "^0.4.0",
