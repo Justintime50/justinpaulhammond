@@ -12,13 +12,11 @@
         "guzzlehttp/guzzle": "^7.5",
         "laravel/framework": "^10.0",
         "laravel/tinker": "^2.8",
-        "sentry/sentry-laravel": "^3.2"
+        "sentry/sentry-laravel": "^3.3"
     },
     "require-dev": {
-        "spatie/laravel-ignition": "^2.0",
-        "fakerphp/faker": "^1.21",
-        "mockery/mockery": "^1.5",
-        "nunomaduro/collision": "^7.0",
+        "spatie/laravel-ignition": "^2.1",
+        "nunomaduro/collision": "^7.5",
         "phpunit/phpunit": "^10.0",
         "squizlabs/php_codesniffer": "^3.7",
         "laravel/ui": "^4.2"
@@ -27,7 +25,10 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     },
     "extra": {
         "laravel": {
