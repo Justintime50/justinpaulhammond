@@ -11,7 +11,7 @@ jobs:
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.2"
+          php-version: '8.2'
       - name: Setup Traefik
         run: docker network create traefik
       - name: Setup Docker container
@@ -26,7 +26,7 @@ jobs:
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.2"
+          php-version: '8.2'
       - name: Install Composer
         run: cd src && composer self-update
       - name: Install Dependencies
@@ -44,7 +44,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: '18'
       - name: Install dependencies
         run: cd src && npm install
       - name: Run SASS lint
@@ -57,8 +57,10 @@ jobs:
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.2"
+          php-version: '8.2'
           coverage: xdebug
+      - name: Setup Traefik
+        run: docker network create traefik
       - name: Install Composer
         run: cd src && composer self-update
       - name: Install Dependencies
@@ -69,13 +71,13 @@ jobs:
         run: cd src && composer coverage
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: ["docker", "lint-php", "lint-sass", "test"]
+    needs: ['docker', 'lint-php', 'lint-sass', 'test']
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Harvey
         uses: distributhor/workflow-webhook@v2
         env:
-          webhook_type: "json-extended"
+          webhook_type: 'json-extended'
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
           data: '{ "deployment_type": "deploy", "prod_compose": true, "healthcheck": ["justinpaulhammond-justinpaulhammond-1", "justinpaulhammond-justinpaulhammond-2"] }'
