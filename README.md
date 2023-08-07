@@ -12,7 +12,7 @@ My personal website. View at [justinpaulhammond.com](https://justinpaulhammond.c
 cp src/.env-example src/.env
 
 # Run the setup script which will bootstrap all the requirements and spin up the service
-./setup.sh
+just setup
 ```
 
 ## Usage
@@ -23,33 +23,15 @@ Visit `justinpaulhammond.localhost` locally or `justinpaulhammond.com` in produc
 
 ```bash
 # Deploy the site locally
-docker compose up -d
+just run
 
 # Deploy the site in production
-docker compose -f docker-compose.yml -f docker-compose-prod.yml up -d
+just prod
 ```
 
 ## Development
 
 ```bash
-# Install dependencies
-composer install
-
-# Lint the PHP files
-composer lint
-
-# Fix PHP linting
-composer fix
-
-# Lint the SASS files
-npm run lint
-
-# Fix SASS linting
-npm run fix
-
-# Compile SASS and Javascript during development (hot-reloads)
-npm run dev
-
-# Compile for production
-npm run build
+# Get a comprehensive list of development tools
+just --list
 ```
