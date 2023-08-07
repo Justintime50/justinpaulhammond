@@ -53,8 +53,7 @@ jobs:
       - run: |
           cd src
           cp .env-example .env
-          just setup
-      - run: just coverage
+          just setup coverage
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: ['docker', 'lint-php', 'lint-sass', 'test']
