@@ -12,7 +12,7 @@ jobs:
         with:
           php-version: '8.2'
       - run: docker network create traefik
-      - name: Run Docker container
+      - name: Run setup Docker container
         run: |
           cd src
           cp .env-example .env
@@ -25,7 +25,8 @@ jobs:
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-      - run: |
+      - name: Run PHP lint
+        run: |
           cd src
           just install lint
   lint-sass:
@@ -36,7 +37,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - run: |
+      - name: Run CSS lint
+        run: |
           cd src
           npm install
           just lint-css
@@ -50,7 +52,8 @@ jobs:
           php-version: '8.2'
           coverage: xdebug
       - run: docker network create traefik
-      - run: |
+      - name: Run coverage report
+        run: |
           cd src
           cp .env-example .env
           just setup coverage
