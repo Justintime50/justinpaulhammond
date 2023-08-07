@@ -5,8 +5,6 @@ on: [push, pull_request]
 jobs:
   docker:
     runs-on: ubuntu-latest
-    env:
-      working-directory: src
     steps:
       - uses: actions/checkout@v3
       - uses: extractions/setup-just@v1
@@ -16,36 +14,34 @@ jobs:
       - run: docker network create traefik
       - name: Run Docker container
         run: |
+          cd src
           cp .env-example .env
           just setup
   lint-php:
     runs-on: ubuntu-latest
-    env:
-      working-directory: src
     steps:
       - uses: actions/checkout@v3
       - uses: extractions/setup-just@v1
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-      - run: just install
-      - run: just lint
+      - run: |
+          cd src
+          just install lint
   lint-sass:
     runs-on: ubuntu-latest
-    env:
-      working-directory: src
     steps:
       - uses: actions/checkout@v3
       - uses: extractions/setup-just@v1
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - run: npm install
-      - run: just lint-css
+      - run: |
+          cd src
+          npm install
+          just lint-css
   test:
     runs-on: ubuntu-latest
-    env:
-      working-directory: src
     steps:
       - uses: actions/checkout@v3
       - uses: extractions/setup-just@v1
@@ -55,6 +51,7 @@ jobs:
           coverage: xdebug
       - run: docker network create traefik
       - run: |
+          cd src
           cp .env-example .env
           just setup
       - run: just coverage
