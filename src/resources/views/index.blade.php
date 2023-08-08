@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Justin Hammond</title>
+    <title>{{ config('app.name') }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ asset('pics/favicon.ico') }}">
@@ -27,8 +27,8 @@
 <body>
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="{{ asset('pics/avatar.png') }}" class="justin-head"> Justin
-                Hammond</a>
+            <a class="navbar-brand" href="#"><img src="{{ asset('pics/avatar.png') }}" class="justin-head">
+                {{ config('app.name') }}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop"
                 aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

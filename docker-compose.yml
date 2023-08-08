@@ -6,6 +6,8 @@ services:
       - traefik
     labels:
       - traefik.enable=true
+    env_file:
+      - src/.env
 
 networks:
   traefik:

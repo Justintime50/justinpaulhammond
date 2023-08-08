@@ -1,6 +1,6 @@
 services:
   justinpaulhammond:
     labels:
-      - "traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.localhost`)"
+      - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.localhost`)'
     volumes:
       - ./src:/var/www/html

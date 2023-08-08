@@ -1,22 +1,25 @@
 services:
   justinpaulhammond:
+    build:
+      args:
+        PROD: true
     deploy:
       replicas: 2
       resources:
         limits:
-          cpus: "0.50"
-          memory: "512M"
+          cpus: '0.50'
+          memory: '512M'
         reservations:
-          cpus: "0.25"
-          memory: "128M"
+          cpus: '0.25'
+          memory: '128M'
     healthcheck:
-      test: [ "CMD", "curl", "-f", "http://localhost" ]
+      test: ['CMD', 'curl', '-f', 'http://localhost']
       interval: 10s
       timeout: 10s
       retries: 3
     labels:
-      - "traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.com`, `www.justinpaulhammond.com`)"
-      - "traefik.http.routers.justinpaulhammond.tls=true"
-      - "traefik.http.routers.justinpaulhammond.tls.certresolver=letsencrypt"
+      - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.com`, `www.justinpaulhammond.com`)'
+      - 'traefik.http.routers.justinpaulhammond.tls=true'
+      - 'traefik.http.routers.justinpaulhammond.tls.certresolver=letsencrypt'
     volumes:
       - ./src/storage:/var/www/html/storage
