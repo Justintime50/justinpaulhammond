@@ -23,4 +23,3 @@ services:
       - 'traefik.http.routers.justinpaulhammond.tls.certresolver=letsencrypt'
     volumes:
       - ./src/storage:/var/www/html/storage
-      - ./src/storage/logs/nginx:/var/log/nginx
