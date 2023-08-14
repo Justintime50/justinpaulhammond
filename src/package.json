@@ -11,12 +11,12 @@
         "bootstrap": "^5.2",
         "laravel-vite-plugin": "^0.7.4",
         "pineapple-library": "^3.2",
-        "postcss-scss": "^4.0",
         "sass": "^1.62",
         "vite": "^4.3"
     },
     "devDependencies": {
         "justintime50-styles": "^0.4.0",
+        "postcss-scss": "^4.0",
         "stylelint": "^15.10",
         "stylelint-config-standard": "^33.0"
     }
