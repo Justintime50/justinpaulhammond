@@ -1,3 +1,7 @@
+# Clean the project
+clean:
+    composer clean
+
 # Run a coverage report
 coverage:
     composer coverage
