@@ -5,13 +5,7 @@ services:
         PROD: true
     deploy:
       replicas: 2
-      resources:
-        limits:
-          cpus: '0.50'
-          memory: '512M'
-        reservations:
-          cpus: '0.25'
-          memory: '128M'
+    mem_limit: '512m'
     healthcheck:
       test: ['CMD', 'curl', '-f', 'http://localhost']
       interval: 10s
