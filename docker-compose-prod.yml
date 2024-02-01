@@ -8,10 +8,11 @@ services:
     mem_limit: '512m'
     healthcheck:
       test: ['CMD', 'curl', '-f', 'http://localhost']
+      start_period: 10s
+      start_interval: 2s
       interval: 30s
-      start_interval: 10s
-      timeout: 10s
-      retries: 3
+      timeout: 5s
+      retries: 5
     labels:
       - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.com`, `www.justinpaulhammond.com`)'
       - 'traefik.http.routers.justinpaulhammond.tls=true'
