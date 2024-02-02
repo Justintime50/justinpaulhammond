@@ -9,10 +9,10 @@ services:
     healthcheck:
       test: ['CMD', 'curl', '-f', 'http://localhost']
       start_period: 10s
-      start_interval: 2s
+      start_interval: 1s
       interval: 30s
-      timeout: 5s
-      retries: 5
+      timeout: 10s
+      retries: 3
     labels:
       - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.com`, `www.justinpaulhammond.com`)'
       - 'traefik.http.routers.justinpaulhammond.tls=true'
