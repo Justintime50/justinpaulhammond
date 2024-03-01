@@ -41,7 +41,7 @@
                             class="nav-link">GitHub</a></li>
                     <li class="nav-item"><a href="https://youtube.com/c/justinhammond" target="_blank"
                             class="nav-link">YouTube</a></li>
-                    <li class="nav-item"><a href="https://website-archive.justinpaulhammond.com" target="_blank"
+                    <li class="nav-item"><a href="https://websites.justinpaulhammond.com" target="_blank"
                             class="nav-link">Websites</a></li>
                 </ul>
             </div>
