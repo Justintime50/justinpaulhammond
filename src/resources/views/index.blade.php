@@ -50,16 +50,16 @@
 
     <div class="bg-banner text-center">
         <h1>Hey, I'm Justin Hammond 👋</h1>
-        <h3>Software Engineer, IT Pro, &#38; Tech Enthusiast</h3>
+        <h3>Senior Software Engineer, IT Pro, &#38; Tech Enthusiast</h3>
         <img src="{{ asset('pics/justin-transparent.png') }}" class="justin-banner-image">
     </div>
 
     <div id="about" class="container">
         <h2>About Me</h2>
-        <p class="text-center">I love all things tech. I've been programming since the age of 12, repairing iPhones
-            since 16, and founding tech companies since 20. I'm an open source fanatic, Apple fanboy, and love to
-            explore new tech. I spend my time coding open source projects, tinkering with electronics and new tech
-            products, and consulting teams on how to get things done.</p>
+        <p class="text-center">I love all things tech. I've been programming for 18+ years, tinkering with electronics
+            for 15+ years, and founding or building tech companies for 10+ years. I'm an open source fanatic, Apple
+            fanboy, and love to explore new tech. I spend my time coding open source projects, tinkering with
+            electronics and new tech products, and consulting teams on how to get things done.</p>
 
         <div class="row text-center">
             <div class="col pa-slideanim">
