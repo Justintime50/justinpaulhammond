@@ -9,9 +9,7 @@ RUN if [ ! -z "$PROD" ]; then \
     composer install -q --no-ansi --no-interaction --no-scripts --no-plugins --no-progress --prefer-dist --optimize-autoloader --no-dev \
     && npm install -s --omit=dev \
     && npm run build \
-    && php artisan config:cache \
-    && php artisan route:cache \
-    && php artisan view:cache; \
+    && php artisan optimize; \
     # Setup dev env
     else \
     composer install \

@@ -17,3 +17,4 @@ vendor
 
 # Laravel
 src/storage/images/
+database.sqlite
