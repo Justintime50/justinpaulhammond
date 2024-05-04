@@ -18,4 +18,5 @@ RUN if [ ! -z "$PROD" ]; then \
     fi \
     # Setup shared env
     && chmod -R 755 storage bootstrap/cache \
-    && php artisan storage:link
+    && php artisan storage:link \
+    && mkdir -p storage/database && touch storage/database/database.sqlite
