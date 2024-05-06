@@ -17,7 +17,7 @@ jobs:
         run: |
           cd src
           cp .env-example .env
-          sed -i 's@# DB_DATABASE=laravel@DB_DATABASE=:memory:@g' .env
+          sed -i 's@DB_DATABASE=/var/www/html/storage/database/database.sqlite@DB_DATABASE=:memory:@g' .env
           just setup
   lint:
     runs-on: ubuntu-latest
@@ -49,7 +49,7 @@ jobs:
         run: |
           cd src
           cp .env-example .env
-          sed -i 's@# DB_DATABASE=laravel@DB_DATABASE=:memory:@g' .env
+          sed -i 's@DB_DATABASE=/var/www/html/storage/database/database.sqlite@DB_DATABASE=:memory:@g' .env
           just setup coverage
   deploy:
     if: github.ref == 'refs/heads/main'
