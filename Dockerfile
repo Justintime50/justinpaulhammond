@@ -17,5 +17,4 @@ RUN if [ ! -z "$PROD" ]; then \
     && php artisan optimize:clear; \
     fi \
     # Setup shared env
-    && chmod -R 775 storage bootstrap/cache \
     && php artisan storage:link
