@@ -19,4 +19,3 @@ services:
       - 'traefik.http.routers.justinpaulhammond.tls.certresolver=letsencrypt'
     volumes:
       - ./src/storage:/var/www/html/storage
-      - ./src/database/database.sqlite:/var/www/html/database/database.sqlite
