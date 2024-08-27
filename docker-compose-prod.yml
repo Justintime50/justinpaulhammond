@@ -13,10 +13,6 @@ services:
       interval: 30s
       timeout: 10s
       retries: 3
-    labels:
-      - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.com`) || Host(`www.justinpaulhammond.com`)'
-      - 'traefik.http.routers.justinpaulhammond.tls=true'
-      - 'traefik.http.routers.justinpaulhammond.tls.certresolver=letsencrypt'
     volumes:
       - ./src/storage/app:/var/www/html/storage/app
       - ./src/storage/logs:/var/www/html/storage/logs
