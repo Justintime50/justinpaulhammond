@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/0dd4ecd465.js" crossorigin="anonymous"></script>
     <meta name="keywords"
         content="justin, paul, hammond, web, design, it, business, resume, pro, developer, software, engineer, experience, management">
-    <meta name="description" content="Justin Hammond - Entrepreneur, Developer, & IT Professional">
+    <meta name="description" content="Justin Hammond - Senior Software Engineer, Technical Founder">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140798052-1"></script>
     <script>
@@ -50,7 +50,7 @@
 
     <div class="bg-banner text-center">
         <h1>Hey, I'm Justin Hammond 👋</h1>
-        <h3>Senior Software Engineer, IT Pro, &#38; Tech Enthusiast</h3>
+        <h3>Senior Software Engineer, Technical Founder</h3>
         <img src="{{ asset('pics/justin-transparent.png') }}" class="justin-banner-image">
     </div>
 
