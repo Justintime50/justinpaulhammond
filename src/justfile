@@ -1,3 +1,7 @@
+# Compile for production
+build:
+    npm run build
+
 # Clean the project
 clean:
     composer clean
@@ -9,10 +13,6 @@ clean-db:
 # Run a coverage report
 coverage:
     composer coverage
-
-# Compile for production
-build:
-    npm run build
 
 # Install dependencies
 install:

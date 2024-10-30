@@ -14,6 +14,5 @@ services:
       timeout: 10s
       retries: 3
     volumes:
-      - ./src/storage/app:/var/www/html/storage/app
+      # TODO: send these to elasticsearch
       - ./src/storage/logs:/var/www/html/storage/logs
-      - ./src/storage/database:/var/www/html/storage/database
