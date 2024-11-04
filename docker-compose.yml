@@ -6,8 +6,3 @@ services:
       - traefik
     env_file:
       - src/.env
-
-networks:
-  traefik:
-    name: traefik
-    external: true

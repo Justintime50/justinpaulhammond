@@ -5,3 +5,8 @@ services:
       - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.localhost`)'
     volumes:
       - ./src:/var/www/html
+
+networks:
+  traefik:
+    name: traefik
+    external: true
