@@ -3,6 +3,8 @@ services:
     labels:
       - 'traefik.enable=true'
       - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.localhost`)'
+    networks:
+      - traefik
     volumes:
       - ./src:/var/www/html
 

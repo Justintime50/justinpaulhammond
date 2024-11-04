@@ -2,7 +2,5 @@ services:
   justinpaulhammond:
     build: .
     restart: always
-    networks:
-      - traefik
     env_file:
       - src/.env
