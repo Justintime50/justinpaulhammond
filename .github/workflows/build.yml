@@ -58,4 +58,4 @@ jobs:
           webhook_type: 'json-extended'
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
-          data: '{ "deployment_type": "deploy", "prod_compose": true, "healthcheck": ["justinpaulhammond-justinpaulhammond-1", "justinpaulhammond-justinpaulhammond-2"] }'
+          data: '{ "deployment_type": "deploy", "prod_compose": true, "healthcheck": ["justinpaulhammond-justinpaulhammond-1"] }'
