@@ -4,3 +4,15 @@ services:
     restart: always
     env_file:
       - src/.env
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.justinpaulhammond.rule=Host(`justinpaulhammond.localhost`)'
+    networks:
+      - traefik
+    volumes:
+      - ./src:/var/www/html
+
+networks:
+  traefik:
+    name: traefik
+    external: true

@@ -2,7 +2,7 @@
 
 My personal website. View at [justinpaulhammond.com](https://justinpaulhammond.com).
 
-[![Build Status](https://github.com/Justintime50/justinpaulhammond.com/workflows/build/badge.svg)](https://github.com/Justintime50/justinpaulhammond.com/actions)
+[![CI Status](https://github.com/Justintime50/justinpaulhammond.com/workflows/ci/badge.svg)](https://github.com/Justintime50/justinpaulhammond.com/actions)
 [![Licence](https://img.shields.io/github/license/justintime50/justinpaulhammond.com)](LICENSE)
 
 ## Install
