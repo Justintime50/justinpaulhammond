@@ -13,8 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: docker/setup-qemu-action@v3
-      - uses: docker/setup-buildx-action@v3
       - name: Sign into Docker
         run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login ${{ secrets.DOCKER_REGISTRY_URL }} -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
       - name: Build Docker image and push to Docker Registry
-        run: docker buildx build --push -t ${{ secrets.DOCKER_REGISTRY_URL }}/justinpaulhammond:${GITHUB_SHA} --build-arg PROD=true --platform linux/amd64 .
+        run: |
+          docker build -t ${{ secrets.DOCKER_REGISTRY_URL }}/justintime50/justinpaulhammond --build-arg PROD=true --platform linux/amd64 .
+          docker push ${{ secrets.DOCKER_REGISTRY_URL }}/justintime50/justinpaulhammond:${GITHUB_SHA}
