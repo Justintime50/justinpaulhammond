@@ -10,8 +10,8 @@
 **/*.md
 **/*.xml
 **/bin
+**/justfile
 **/node_modules
 **/phpstan.neon
 **/tests
 **/vendor
-justfile
