@@ -1,12 +1,7 @@
 {
     "private": true,
     "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "lint": "npx stylelint resources/sass/*.scss --config node_modules/justintime50-styles/src/css/.stylelintrc.json --custom-syntax postcss-scss",
-        "fix": "npx stylelint resources/sass/*.scss --config node_modules/justintime50-styles/src/css/.stylelintrc.json --custom-syntax postcss-scss --fix"
-    },
+    "scripts": {},
     "dependencies": {
         "bootstrap": "^5.3",
         "laravel-vite-plugin": "^1.0",

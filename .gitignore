@@ -16,5 +16,6 @@ vendor
 *.LICENSE.txt
 
 # Laravel
-src/storage/images/
 database.sqlite
+src/public/build
+src/storage/images/
