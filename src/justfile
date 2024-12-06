@@ -63,10 +63,6 @@ migrate-seed:
 phpstan:
     ./{{PHP_BIN}}/phpstan analyse --memory-limit=4G
 
-# Deploy the project for production
-prod:
-    docker stack deploy -c "$HOME"/git/{{PROJECT_NAME}}/docker-compose.yml {{PROJECT_NAME}}
-
 # Compile SASS and Javascript during development (hot-reloads)
 run:
     docker compose up -d
