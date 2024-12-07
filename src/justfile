@@ -49,15 +49,15 @@ lint-css-fix:
 
 # Migrates the database
 migrate:
-    docker exec -t {{DOCKER_DB_CONTAINER_NAME}} php artisan migrate --no-interaction --force
+    docker exec -t {{DOCKER_CONTAINER_NAME}} php artisan migrate --no-interaction --force
 
 # Migrates the database and cleans in one go
 migrate-fresh:
-    docker exec -t {{DOCKER_DB_CONTAINER_NAME}} php artisan migrate:fresh --no-interaction --force
+    docker exec -t {{DOCKER_CONTAINER_NAME}} php artisan migrate:fresh --no-interaction --force
 
 # Migrates and seeds the database
 migrate-seed:
-    docker exec -t {{DOCKER_DB_CONTAINER_NAME}} php artisan migrate:fresh --seed --no-interaction --force
+    docker exec -t {{DOCKER_CONTAINER_NAME}} php artisan migrate:fresh --seed --no-interaction --force
 
 # Run static analysis on the project
 phpstan:
@@ -70,7 +70,7 @@ run:
 
 # Seeds the database
 seed:
-    docker exec -t {{DOCKER_DB_CONTAINER_NAME}} php artisan db:seed --no-interaction --force
+    docker exec -t {{DOCKER_CONTAINER_NAME}} php artisan db:seed --no-interaction --force
 
 # Sets up and spins up the project for the first time
 setup:
