@@ -29,7 +29,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img class="justin-head"
-                     src="https://f000.backblazeb2.com/file/shield-management/justinpaulhammond/avatar.png"
+                     src="https://f000.backblazeb2.com/file/justinpaulhammond/avatar.png"
                      alt="Justin">
                 {{ config('app.name') }}
             </a>
@@ -81,7 +81,7 @@
         <h1>Hey, I'm Justin Hammond 👋</h1>
         <h3>Senior Software Engineer, Technical Founder</h3>
         <img class="justin-banner-image"
-             src="https://f000.backblazeb2.com/file/shield-management/justinpaulhammond/justin-transparent.png"
+             src="https://f000.backblazeb2.com/file/justinpaulhammond/justin-transparent.png"
              alt="Justin Hammond">
     </div>
 
