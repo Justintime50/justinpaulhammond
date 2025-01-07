@@ -1,18 +1,20 @@
 {
     "private": true,
     "type": "module",
-    "scripts": {},
+    "engines": {
+        "node": ">=22"
+    },
     "dependencies": {
         "bootstrap": "^5.3",
-        "laravel-vite-plugin": "^1.0",
+        "laravel-vite-plugin": "^1.1",
         "pineapple-library": "^4.0",
-        "sass": "^1.79",
-        "vite": "^5.4"
+        "sass": "^1.83",
+        "vite": "^6.0"
     },
     "devDependencies": {
         "justintime50-styles": "^0.6.0",
         "postcss-scss": "^4.0",
-        "stylelint": "^16.9",
+        "stylelint": "^16.12",
         "stylelint-config-standard": "^36.0"
     }
 }
