@@ -6,9 +6,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: extractions/setup-just@v2
-      - uses: shivammathur/setup-php@v2
+      - uses: justintime50/composite-actions/bootstrap-php@v1
         with:
           php-version: '8.4'
       - run: docker network create traefik
@@ -20,14 +18,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: extractions/setup-just@v2
-      - uses: shivammathur/setup-php@v2
+      - uses: justintime50/composite-actions/bootstrap-php@v1
         with:
           php-version: '8.4'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
       - name: Lint project
         run: |
           cd src
@@ -35,9 +28,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: extractions/setup-just@v2
-      - uses: shivammathur/setup-php@v2
+      - uses: justintime50/composite-actions/bootstrap-php@v1
         with:
           php-version: '8.4'
           coverage: xdebug
