@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: justintime50/composite-actions/bootstrap-php@v1
+        with:
+          php-version: '8.5'
       - name: Run setup Docker container
         run: |
           cd src
@@ -16,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: justintime50/composite-actions/bootstrap-php@v1
+        with:
+          php-version: '8.5'
       - name: Lint project
         run: |
           cd src
@@ -24,6 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: justintime50/composite-actions/bootstrap-php@v1
+        with:
+          php-version: '8.5'
       - name: Run coverage report
         run: |
           cd src
