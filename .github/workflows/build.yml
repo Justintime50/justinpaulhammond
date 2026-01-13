@@ -11,7 +11,7 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' && github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: justintime50/composite-actions/publish-docker@v1
+      - uses: justintime50/composite-actions/publish-private-image@v1
         with:
           registry_url: ${{ secrets.DOCKER_REGISTRY_URL }}
           username: ${{ secrets.DOCKER_USERNAME }}
